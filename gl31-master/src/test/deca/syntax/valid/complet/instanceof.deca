@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 24/01/2021
+class A{}
+{
+    A a = new A();
+    if(a instanceof A){
+        print("ok");
+    }
+}

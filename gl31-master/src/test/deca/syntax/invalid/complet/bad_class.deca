@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 9 : Erreur, 'clas' n'existe pas
+//
+// Historique:
+//    cree le 18/01/2021
+clas Test{
+}

@@ -1,0 +1,15 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 14: Erreur, A n'est pas un sous-type de B
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    protected int index;
+}
+{
+    A a = new A();
+    int b = a.index;
+}

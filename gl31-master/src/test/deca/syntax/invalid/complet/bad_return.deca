@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 11: Erreur, ident manquant avant ';'
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    int methodeTest(int param){
+        return ;
+    }
+}

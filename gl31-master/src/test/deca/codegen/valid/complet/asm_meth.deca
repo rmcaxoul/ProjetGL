@@ -1,0 +1,19 @@
+// Description:
+//    tests de méthode asm
+//
+// Resultats:
+//    Succès : affiche 'ok';
+//
+// Historique:
+//    cree le 24/01/2021
+class Test{
+    void methodeTest() asm ("
+	    TSTO #0
+	    BOV stack_overflow_error
+	    WSTR \"ok\"
+	    RTS");
+}
+{
+    Test t = new Test();
+    t.methodeTest();
+}

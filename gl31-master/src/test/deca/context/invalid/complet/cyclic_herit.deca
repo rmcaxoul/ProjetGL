@@ -1,0 +1,9 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 9: Erreur, héritage cyclique sur A
+//
+// Historique:
+//    cree le 23/01/2021
+class A extends A{}

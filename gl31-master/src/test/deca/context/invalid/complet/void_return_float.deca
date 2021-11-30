@@ -1,0 +1,15 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 12: Erreur, le type renvoyé n'est pas le bon
+//
+// Historique:
+//    cree le 20/01/2021
+class Test{
+
+    void methTest(float param1){
+        return param1;
+    }
+}
+

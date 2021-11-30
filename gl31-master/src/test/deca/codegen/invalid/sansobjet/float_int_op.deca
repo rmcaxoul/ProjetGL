@@ -1,0 +1,12 @@
+// Description:
+//    Test int = float + 1
+//
+// Resultats:
+//    Ligne 11: perte de précision dûe à la conversion
+//
+// Historique:
+//    cree le 16/01/2021
+{
+    float f = 3.12e2;
+    int i = f + 1;
+}

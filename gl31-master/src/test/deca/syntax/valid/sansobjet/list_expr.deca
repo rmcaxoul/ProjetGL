@@ -1,0 +1,18 @@
+// Description:
+//    tests de programme correct syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    int i;
+    float f;
+    boolean b;
+    string s;
+
+    while(true){
+        print(i + b + f + s);
+    }
+}

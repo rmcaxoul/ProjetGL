@@ -1,0 +1,17 @@
+// Description:
+//    Appel de méthode de classe avec return
+//
+// Resultats:
+//    Succes : affiche '3'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    int calcul(){
+        return 3;
+    }
+}
+{
+    A a = new A();
+    print(a.calcul());
+}

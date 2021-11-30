@@ -1,0 +1,51 @@
+// Description:
+//    Test complexe codegen pour langage complet
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    protected int index;
+
+    void setIndex(int param){
+        index = param;
+    }
+    int getIndex(){
+        return index;
+    }
+}
+class B extends A{
+    boolean b;
+    
+    boolean methBool(float param){
+        if(param <= 3.000e6f){
+            return false;
+        }
+        else{
+            if(param < 3.000e7f){
+                return true;
+            }
+            else{
+                return false;
+            }
+            print("no (methBool)");
+        }
+    }
+}
+{
+    B b = new B();
+    b.setIndex(667);
+    if(b.getIndex() > 100){
+        if(b.methBool(2.999e7f)){
+            print("ok");
+        }
+        else{
+            print("no");
+        }
+    }
+    else{
+        print("no again");
+    }
+}

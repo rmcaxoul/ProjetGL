@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 11 : Erreur, 'instanceo' n'existe pas
+//
+// Historique:
+//    cree le 24/01/2021
+class A{}
+{
+    A a = new A();
+    if(a instanceo A){
+        print("no");
+    }
+}

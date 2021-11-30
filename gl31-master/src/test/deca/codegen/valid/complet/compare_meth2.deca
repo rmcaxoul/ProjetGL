@@ -1,0 +1,28 @@
+// Description:
+//    Appel de méthodes dans une comparaison entre int
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    int plus(int i){
+        return i + 4;
+    }
+    int moins(int i){
+        return i - 4;
+    }
+    int fois(int i){
+        return i*4;
+    }
+}
+{
+    A a = new A();
+    if(a.plus(0) >= a.moins(0) && a.fois(4) == 16){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

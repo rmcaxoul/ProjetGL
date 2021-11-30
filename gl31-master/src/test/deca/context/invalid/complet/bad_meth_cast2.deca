@@ -1,0 +1,13 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11: Erreur, mauvais type de conversion
+//
+// Historique:
+//    cree le 24/01/2021
+class A{
+    boolean cast(float param){
+        return (boolean)param;
+    }
+}

@@ -1,0 +1,23 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    protected float f;
+
+    void function() {
+        if(f < 0){
+            printlnx(f);
+        }
+        else if(f == 0){
+            print("nul");
+        }
+        else{
+            println(f);
+        }
+    }
+}

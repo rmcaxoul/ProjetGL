@@ -1,0 +1,29 @@
+// Description:
+//    Test instanceOf initialisation boolean
+//
+// Resultats:
+//    Succes : affiche 'ok'
+//
+// Historique:
+//    cree le 21/01/2021
+class D{}
+class A{
+    protected int a;
+    D d;
+
+}
+
+class B extends A{}
+
+
+{
+    B b = new B();
+    D d = new D();
+    boolean bool = d instanceof Object;
+    boolean bool2 = b instanceof A;
+    boolean bool3 = d instanceof A;
+
+    if (bool && bool2 && !bool3){
+        print("ok");
+    }
+}

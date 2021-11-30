@@ -1,0 +1,22 @@
+// Description:
+//    tests de programme correct lexicalement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+
+{
+    float a = 54.526;
+    float b = 21.3f;
+    float c = 1.23E-5;
+    float d = 41.78E+2;
+    float e = 5.2E10;
+    float f = 1.23E-5f;
+    float g = 41.78E+2f;
+    float h = 5.2E10f;
+    float i = 1.23E-5F;
+    float j = 41.78E+2F;
+    float k = 5.2E10F;
+}

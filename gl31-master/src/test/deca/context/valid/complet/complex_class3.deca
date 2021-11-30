@@ -1,0 +1,19 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class A{}
+class B extends A{}
+class C extends B{}
+{
+    A a = new A();
+    A c;
+    B b = new B();
+    a = new B();
+    c = new C();
+    b = new C();
+}

@@ -1,0 +1,14 @@
+// Description:
+//    Typage : condition float
+//
+// Resultats:
+//    Ligne 11: un float n'est pas une condition
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float f = 2.45e9f;
+    if(f){
+        print("ok");
+    }
+}

@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect lexicalement pour hello-world
+//
+// Resultats:
+//    ligne 10 : Erreur, nom de fichier vide
+//
+// Historique:
+//    cree le 10/01/2021
+
+#include

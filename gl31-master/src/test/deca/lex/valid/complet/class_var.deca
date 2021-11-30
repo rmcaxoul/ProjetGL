@@ -1,0 +1,12 @@
+// Description:
+//    tests de programme correct lexicalement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    protected int a;
+    float f;
+}

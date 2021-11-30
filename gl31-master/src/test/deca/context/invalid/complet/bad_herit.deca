@@ -1,0 +1,14 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 13: Erreur, un type B ne peut pas prendre le type A
+//
+// Historique:
+//    cree le 20/01/2021
+class A{}
+class B extends B{}
+{
+    B b;
+    b = new A();
+}

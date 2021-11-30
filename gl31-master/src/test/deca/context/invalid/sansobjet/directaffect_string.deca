@@ -1,0 +1,11 @@
+// Description:
+//    Typage : associe true à un string
+//
+// Resultats:
+//    Ligne 10: Affectation de type impossible, 'string' ne peut pas valoir 'true'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+   string s = true;
+}

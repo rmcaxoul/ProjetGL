@@ -1,0 +1,20 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 13 : Erreur, '{' manquant
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    boolean b;
+
+    if(b == true){
+        print(b);
+    }
+    else if(b == false){
+        print("yes");
+    }
+    else{
+        print("no");
+}

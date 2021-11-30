@@ -1,0 +1,13 @@
+// Description:
+//    Division simple int fonctionnelle
+//
+// Resultats:
+//    Succes : affiche '3'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 6;
+    int b = a/2;
+    print(b);
+}

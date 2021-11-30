@@ -1,0 +1,17 @@
+// Description:
+//    Cast une méthode
+//
+// Resultats:
+//    Succes : affiche '348'
+// 
+// Historique:
+//    cree le 24/01/2021
+class A{
+    float calcul(float param){
+        return param*2;
+    }
+}
+{
+    A a = new A();
+    print((int)(a.calcul(1.74000e+02)));
+}

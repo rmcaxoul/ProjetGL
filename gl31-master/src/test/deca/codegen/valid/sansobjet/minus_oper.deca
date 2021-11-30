@@ -1,0 +1,11 @@
+// Description:
+//    Test int = --int
+//
+// Resultats:
+//    Succes : affiche '-8'
+//
+// Historique:
+//    cree le 19/01/2021
+{
+    print(--(-1-7));
+}

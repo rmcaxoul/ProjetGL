@@ -1,0 +1,13 @@
+// Description:
+//    Soustraction simple int fonctionnelle
+//
+// Resultats:
+//    Succes : affiche '5'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 7;
+    int b = a - 2;
+    print(b);
+}

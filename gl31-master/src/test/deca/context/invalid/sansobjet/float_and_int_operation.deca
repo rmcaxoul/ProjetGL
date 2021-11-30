@@ -1,0 +1,21 @@
+// Description:
+//    Opérations : entre un int et un float
+//
+// Resultats:
+//    Succes : Types compatibles, opérations refusee
+//
+// Historique:
+//    cree le 13/01/2021
+
+{
+    int a, b;
+    float c;
+
+    // Doit etre accepte.
+    a = b+c;
+    b = c-a;
+    c = b*a;
+    a = b/c;
+    b = c%b;
+}
+

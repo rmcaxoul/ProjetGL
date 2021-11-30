@@ -1,0 +1,13 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 12 : une methode porte déjà ce nom
+//
+// Historique:
+//    cree le 19/01/2021
+
+class A{
+    int meth(float a){}
+    int meth(float a){}
+}

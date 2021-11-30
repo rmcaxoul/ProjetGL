@@ -1,0 +1,18 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int meth(){
+        return 1;
+    }
+}
+class B extends A{}
+{
+    B b = new B();
+    int j = b.meth();
+}

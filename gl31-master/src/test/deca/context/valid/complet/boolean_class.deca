@@ -1,0 +1,28 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    boolean b;
+    protected boolean c;
+    boolean d;
+
+    void methTest(boolean param){
+        if(param && b){
+            print("oui");
+        }
+        else if(param || c){
+            print("non");
+        }
+        else if(d){
+            print("jamais");
+        }
+        else{
+            print("rate");
+        }
+    }
+}

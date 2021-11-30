@@ -1,0 +1,19 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 18: Erreur, le type appelant n'est pas le bon
+//
+// Historique:
+//    cree le 20/01/2021
+class A{}
+{
+    int methInt(){
+        int b = 2;
+        return b;
+    }
+}
+{
+    A a;
+    float f = a.methInt();
+}

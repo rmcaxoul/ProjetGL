@@ -1,0 +1,11 @@
+// Description:
+//    Typage : associe true à un float
+//
+// Resultats:
+//    Ligne 10: Affectation de type impossible, 'float' ne peut pas valoir 'true'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+   float f = true;
+}

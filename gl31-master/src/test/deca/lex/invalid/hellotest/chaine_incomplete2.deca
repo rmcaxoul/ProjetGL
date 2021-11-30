@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect lexicalement (chaine mal commencee)
+//    pour hello-world
+//
+// Resultats:
+//    ligne 10 : Erreur, chaine mal commencee
+//
+// Historique:
+//    cree le 07/01/2021
+
+chaine mal commencee"

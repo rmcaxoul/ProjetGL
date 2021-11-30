@@ -1,0 +1,16 @@
+// Description:
+//    Affectation et typage : associe un int a un int
+//
+// Resultats:
+//    Ligne 15: Affectation de types compatibles
+//
+// Historique:
+//    cree le 08/01/2021
+
+{
+   int a;
+   int b;
+
+   // Doit etre accepte.
+   a = b;
+}

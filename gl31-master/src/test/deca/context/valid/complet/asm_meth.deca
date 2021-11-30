@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme correct contextuellement pour complet
+//
+// Resultats:
+//    Succès
+//
+// Historique:
+//    cree le 24/01/2021
+class Test{
+    void methodeTest() asm ("WSTR \"hello\"");
+}
+{
+    Test t = new Test();
+    t.methodeTest();
+}

@@ -1,0 +1,13 @@
+// Description:
+//    Test float = float * float
+//
+// Resultats:
+//    Succes : affiche '3.52000e+01'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float i = 3.2e2f;
+    float f = i * 1.1e-1f;
+    print(f);
+}

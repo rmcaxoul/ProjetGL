@@ -1,0 +1,594 @@
+Ceci est la liste des équipes du projet GL 2021.
+
+La première colonne donne le groupe (1 groupe = 5 ou 6 équipes), et
+permet d'avoir son emploi du temps dans ADE. La seconde est le numéro
+d'équipe (1 équipe = 5 étudiants).
+
+
+Groupe g0   | Equipe gl00 | reigniep | Reignier Patrick
+
+Groupe g0   | Equipe gl00 | grozr    | Groz Roland
+
+Groupe g0   | Equipe gl00 | oriatc   | Oriat Catherine
+
+Groupe g0   | Equipe gl00 | cackowss | Cackowki Stenzel
+
+Groupe g0   | Equipe gl00 | serwew   | Wendelin Serwe
+
+Groupe g0   | Equipe gl00 | ramparim | Mathias Ramparison
+
+Groupe g0   | Equipe gl00 | bodinm   | Bodin Martin
+
+Groupe g0   | Equipe gl00 | idania   | Idani Akram
+
+Groupe g0   | Equipe gl00 | altisenk | Altisen Karine
+
+Groupe g0   | Equipe gl00 | luji     | Lu Jingyan
+
+Groupe g1   | Equipe gl01 | cathelib | Cathelineau  Benjamin 
+
+Groupe g1   | Equipe gl01 | fousselu | Fousse  Lucie 
+
+Groupe g1   | Equipe gl01 | jaubertb | Jaubert  Baudouin 
+
+Groupe g1   | Equipe gl01 | manica   | Manic  Alan 
+
+Groupe g1   | Equipe gl01 | salleyrn | Salleyrette  Nathan 
+
+Groupe g1   | Equipe gl02 | belouars | Belouarda  Saad 
+
+Groupe g1   | Equipe gl02 | bougueab | Bouguern  Abderrahmane 
+
+Groupe g1   | Equipe gl02 | fenkouca | Fenkouch  Ayoub 
+
+Groupe g1   | Equipe gl02 | moufliha | Mouflih  Abdelhamid 
+
+Groupe g1   | Equipe gl02 | ouazzany | Ouazzani Chahdi  Youssef 
+
+Groupe g1   | Equipe gl03 | calvezb  | Calvez  Brieuc 
+
+Groupe g1   | Equipe gl03 | manfredt | Manfredi  Théo 
+
+Groupe g1   | Equipe gl03 | mathaiar | Mathais  Arthur 
+
+Groupe g1   | Equipe gl03 | maurelbj | Maurel-Barros  Jules 
+
+Groupe g1   | Equipe gl03 | rioula   | Riou  Laura 
+
+Groupe g1   | Equipe gl04 | avotn    | Avot  Nicolas 
+
+Groupe g1   | Equipe gl04 | cantorit | Cantori  Thibault 
+
+Groupe g1   | Equipe gl04 | mestrey  | Mestre  Yannis 
+
+Groupe g1   | Equipe gl04 | pelissia | Pelissie  Arnaud 
+
+Groupe g1   | Equipe gl04 | violleva | Viollet  Valentin 
+
+Groupe g1   | Equipe gl05 | auvrayp  | Auvray  Pierre 
+
+Groupe g1   | Equipe gl05 | cuvelier | Cuvelier  Rose 
+
+Groupe g1   | Equipe gl05 | marquisu | Marquis  Ulysse 
+
+Groupe g1   | Equipe gl05 | villarlu | Villard  Lucas 
+
+Groupe g1   | Equipe gl05 | vivierea | Viviere  Arthur 
+
+Groupe g2   | Equipe gl06 | bertrinm | Bertringer  Maxence 
+
+Groupe g2   | Equipe gl06 | boyert   | Boyer  Theo 
+
+Groupe g2   | Equipe gl06 | champolo | Champon  Lola 
+
+Groupe g2   | Equipe gl06 | girodli  | Girod  Lisa 
+
+Groupe g2   | Equipe gl06 | oussetm  | Ousset  Mickaël 
+
+Groupe g2   | Equipe gl07 | koskao   | Koska  Océane 
+
+Groupe g2   | Equipe gl07 | prats    | Prat  Sylvain 
+
+Groupe g2   | Equipe gl07 | ricardgu | Ricard  Guillaume 
+
+Groupe g2   | Equipe gl07 | simeonl  | Simeon  Loïc 
+
+Groupe g2   | Equipe gl07 | suntharm | Sunthar  Malaravan 
+
+Groupe g2   | Equipe gl08 | bovol    | Bovo  Laura 
+
+Groupe g2   | Equipe gl08 | lalliern | Lallier  Nina 
+
+Groupe g2   | Equipe gl08 | lespinec | Lespine  Chloe 
+
+Groupe g2   | Equipe gl08 | sagotgja | Sagot--Gentil  Jade 
+
+Groupe g2   | Equipe gl08 | sallemad | Salles  Madeline 
+
+Groupe g2   | Equipe gl09 | canalsl  | Canals  Lorris 
+
+Groupe g2   | Equipe gl09 | cherifsa | Cherif  Saady 
+
+Groupe g2   | Equipe gl09 | delarmil | De Larminat  Louis 
+
+Groupe g2   | Equipe gl09 | dridiha  | Dridi  Hamza 
+
+Groupe g2   | Equipe gl09 | laoj     | Lao  Jean-Michel 
+
+Groupe g2   | Equipe gl10 | fabreba  | Fabre  Bastien 
+
+Groupe g2   | Equipe gl10 | gacele   | Gacel  Etienne 
+
+Groupe g2   | Equipe gl10 | jezequel | Jézéquel-Royer  Louis 
+
+Groupe g2   | Equipe gl10 | lagham   | Lagha  Mohamed Ali 
+
+Groupe g2   | Equipe gl10 | parkhoma | Parkhomenko  Andriy 
+
+Groupe g3   | Equipe gl11 | aitbaheh | Ait Bahessou  Haytham 
+
+Groupe g3   | Equipe gl11 | ezzejjai | Ez-Zejjari  Imad 
+
+Groupe g3   | Equipe gl11 | rafaii   | Rafai  Imad 
+
+Groupe g3   | Equipe gl11 | sadkim   | Sadki  Mouad 
+
+Groupe g3   | Equipe gl11 | waffodzg | Waffo Dzuyo  Guy Stephane 
+
+Groupe g3   | Equipe gl12 | curtillh | Curtillet  Hugo 
+
+Groupe g3   | Equipe gl12 | gellenom | Gellenoncourt  Michael 
+
+Groupe g3   | Equipe gl12 | guillnic | Guillermain  Nicolas 
+
+Groupe g3   | Equipe gl12 | jeunotca | Jeunot-Caire  Alexandre 
+
+Groupe g3   | Equipe gl12 | sikoras  | Sikora  Stéphane 
+
+Groupe g3   | Equipe gl13 | colineth | Colinet  Hugo 
+
+Groupe g3   | Equipe gl13 | dieuaida | Dieuaide  Aymerick 
+
+Groupe g3   | Equipe gl13 | doblerf  | Dobler  Florent 
+
+Groupe g3   | Equipe gl13 | lhommea  | Lhomme  Antoine 
+
+Groupe g3   | Equipe gl13 | raffingu | Raffin  Guillaume 
+
+Groupe g3   | Equipe gl14 | barbierw | Barbier  Wilhem 
+
+Groupe g3   | Equipe gl14 | faurroma | Faure  Romain 
+
+Groupe g3   | Equipe gl14 | favrleop | Favre  Leopold 
+
+Groupe g3   | Equipe gl14 | gourbeyd | Gourbeyre  Damien 
+
+Groupe g3   | Equipe gl14 | rouxst   | Roux  Stella 
+
+Groupe g3   | Equipe gl15 | coppom   | Coppo  Manuel 
+
+Groupe g3   | Equipe gl15 | dioneal  | Dione  Alan 
+
+Groupe g3   | Equipe gl15 | marmoniy | Marmonier  Yohann 
+
+Groupe g3   | Equipe gl15 | pettexsg | Pettex-Sabarot  Gaspard 
+
+Groupe g3   | Equipe gl15 | simonalo | Simon  Aloïs 
+
+Groupe g4   | Equipe gl16 | angara   | Angar  Amine 
+
+Groupe g4   | Equipe gl16 | elalemd  | El Alem  Dy 
+
+Groupe g4   | Equipe gl16 | kaddamio | Kaddami  Oussama 
+
+Groupe g4   | Equipe gl16 | lehdiliy | Lehdili  Youness 
+
+Groupe g4   | Equipe gl16 | tarbouim | Tarboui  Mouad 
+
+Groupe g4   | Equipe gl17 | briottem | Briottet  Marine 
+
+Groupe g4   | Equipe gl17 | huay     | Hua  Yu   
+
+Groupe g4   | Equipe gl17 | julor    | Julo  Rémi 
+
+Groupe g4   | Equipe gl17 | peremate | Perez  Mateo 
+
+Groupe g4   | Equipe gl17 | yanjia   | Yan  Jia  
+
+Groupe g4   | Equipe gl18 | dauvillc | Dauvilliers  Clément 
+
+Groupe g4   | Equipe gl18 | harangc  | Harang  Clement 
+
+Groupe g4   | Equipe gl18 | justonj  | Juston  Jeremy 
+
+Groupe g4   | Equipe gl18 | plancqs  | Plancq  Sebastien 
+
+Groupe g4   | Equipe gl18 | scabellq | Scabello  Quentin 
+
+Groupe g4   | Equipe gl19 | gregotm  | Gregot  Mickaël 
+
+Groupe g4   | Equipe gl19 | lanthiet | Lanthiez  Thibault 
+
+Groupe g4   | Equipe gl19 | lebedevs | Lebedev  Stepan 
+
+Groupe g4   | Equipe gl19 | ponshu   | Pons  Hugo 
+
+Groupe g4   | Equipe gl19 | teboula  | Teboul  Adrien 
+
+Groupe g4   | Equipe gl20 | benallaa | Benâlla  Anas 
+
+Groupe g4   | Equipe gl20 | boulkhiy | Boulkhir  Youssef 
+
+Groupe g4   | Equipe gl20 | hamoumiy | Hamoumi  Youness 
+
+Groupe g4   | Equipe gl20 | mejgaria | Mejgari  Anas 
+
+Groupe g4   | Equipe gl20 | younesza | Younes  Zakaria 
+
+Groupe g4   | Equipe gl21 | allouchm | Allouch  Mohamed 
+
+Groupe g4   | Equipe gl21 | argentoa | Argento  Adrien 
+
+Groupe g4   | Equipe gl21 | vincentn | Vincent  Nicolas 
+
+Groupe g4   | Equipe gl21 | xavierr  | Xavier  Raphael 
+
+Groupe g4   | Equipe gl21 | zerouamo | Zeroual  Mohamed Aziz 
+
+Groupe g5   | Equipe gl22 | carreso  | Carre  Solene 
+
+Groupe g5   | Equipe gl22 | colletti | Collet  Timothée 
+
+Groupe g5   | Equipe gl22 | guillonj | Guillon  Jérémy 
+
+Groupe g5   | Equipe gl22 | lecallor | Le Calloch  Rémy 
+
+Groupe g5   | Equipe gl22 | morvane  | Morvan  Enora 
+
+Groupe g5   | Equipe gl23 | barrauem | Barraud  Emeline 
+
+Groupe g5   | Equipe gl23 | beaudb   | Beaud  Benjamin 
+
+Groupe g5   | Equipe gl23 | favrayay | Favray  Aymeric 
+
+Groupe g5   | Equipe gl23 | lambevin | Lambert  Vincent 
+
+Groupe g5   | Equipe gl23 | poinselm | Poinsel  Manon 
+
+Groupe g5   | Equipe gl24 | gavaldaa | Gavalda  Antoine 
+
+Groupe g5   | Equipe gl24 | languepc | Languepin  Corentin 
+
+Groupe g5   | Equipe gl24 | rigondat | Rigondaud  Thibaud 
+
+Groupe g5   | Equipe gl24 | sialah   | Siala  Hela 
+
+Groupe g5   | Equipe gl24 | vincentl | Vincent  Lucas 
+
+Groupe g5   | Equipe gl25 | delaplaf | Delaplace  Florian 
+
+Groupe g5   | Equipe gl25 | ducjacqe | Duc-Jacquet  Emma 
+
+Groupe g5   | Equipe gl25 | lefevral | Lefèvre  Alexis 
+
+Groupe g5   | Equipe gl25 | martin64 | Martin  Marie 
+
+Groupe g5   | Equipe gl25 | sengchas | Sengchanh  Steven 
+
+Groupe g5   | Equipe gl26 | dauvergp | Dauvergne  Pierre 
+
+Groupe g5   | Equipe gl26 | dupasqno | Du Pasquier  Noemi 
+
+Groupe g5   | Equipe gl26 | geoffroa | Geoffroy  Agathe 
+
+Groupe g5   | Equipe gl26 | mercieth | Mercier  Thiéfaine 
+
+Groupe g5   | Equipe gl26 | perdrixg | Perdrix  Gaëlle 
+
+Groupe g5   | Equipe gl27 | cousinq  | Cousin  Quentin 
+
+Groupe g5   | Equipe gl27 | ehretc   | Ehret  Christophe 
+
+Groupe g5   | Equipe gl27 | kaufmana | Kaufman  Adrien 
+
+Groupe g5   | Equipe gl27 | kesmanb  | Kesman  Berkan 
+
+Groupe g5   | Equipe gl27 | lavignma | Lavigne  Mathis 
+
+Groupe g6   | Equipe gl28 | baiocchg | BAIOCCHI DE SANT'ANNA Gabriel
+
+Groupe g6   | Equipe gl28 | binae    | Bina  Elias 
+
+Groupe g6   | Equipe gl28 | bonni    | Bon  Nicolas 
+
+Groupe g6   | Equipe gl28 | duvaladr | Duval  Adrien 
+
+Groupe g6   | Equipe gl28 | magnitho | Magnin  Thomas 
+
+Groupe g6   | Equipe gl29 | baronaxe | Baron  Axel 
+
+Groupe g6   | Equipe gl29 | eboukydb | Ebouky Doualla Dina  Brown Wilfried 
+
+Groupe g6   | Equipe gl29 | haasl    | Haas  Lubin 
+
+Groupe g6   | Equipe gl29 | hanouzl  | Hanouz  Lucas 
+
+Groupe g6   | Equipe gl29 | vermeulf | Vermeulen  Fabien 
+
+Groupe g6   | Equipe gl30 | benelhas | Ben El Haj Soulami  Souhayl 
+
+Groupe g6   | Equipe gl30 | grigolim | Grigoli  Marco 
+
+Groupe g6   | Equipe gl30 | quillotf | Quillot  Florian 
+
+Groupe g6   | Equipe gl30 | sorimoul | Sorimoutou  Lenaick 
+
+Groupe g6   | Equipe gl30 | zbakhm   | Zbakh  Mouad 
+
+Groupe g6   | Equipe gl31 | briancan | Briancon  Antoine 
+
+Groupe g6   | Equipe gl31 | glorviga | Glorvigen  Axel 
+
+Groupe g6   | Equipe gl31 | launayth | Launay  Thibault 
+
+Groupe g6   | Equipe gl31 | marti227 | Martin  Maxime 
+
+Groupe g6   | Equipe gl31 | pocreaup | Pocreau  Pierre 
+
+Groupe g6   | Equipe gl32 | archimba | Archimbaud  Antoine 
+
+Groupe g6   | Equipe gl32 | bernasj  | Bernas  Jason 
+
+Groupe g6   | Equipe gl32 | deverina | Deverin  Adrien 
+
+Groupe g6   | Equipe gl32 | lepaillt | Le Pailleur  Thibault 
+
+Groupe g6   | Equipe gl32 | peronb   | Péron  Baptiste 
+
+Groupe g6   | Equipe gl33 | bessoum  | Bessou  Mathieu 
+
+Groupe g6   | Equipe gl33 | obeidh   | Obeid  Hassan 
+
+Groupe g6   | Equipe gl33 | poinsont | Poinson  Tanguy 
+
+Groupe g6   | Equipe gl33 | rambaudm | Rambaud  Matthieu 
+
+Groupe g7   | Equipe gl34 | clercau  | Clerc  Audrey 
+
+Groupe g7   | Equipe gl34 | garciny  | Garcin  Yanis 
+
+Groupe g7   | Equipe gl34 | genissom | Genisson  Maxime 
+
+Groupe g7   | Equipe gl34 | imberbas | Imbert  Bastien 
+
+Groupe g7   | Equipe gl34 | kugelmag | Kugelmann  Geoffrey 
+
+Groupe g7   | Equipe gl35 | aderkaoy | Aderkaoui  Yousra 
+
+Groupe g7   | Equipe gl35 | botaghrw | Botaghrassa  Walid 
+
+Groupe g7   | Equipe gl35 | elouatih | Elouati  Hossam 
+
+Groupe g7   | Equipe gl35 | luy      | Lu  Yan   
+
+Groupe g7   | Equipe gl35 | taghys   | Taghy  Soufiane 
+
+Groupe g7   | Equipe gl36 | boulhole | Boulhol  Elodie 
+
+Groupe g7   | Equipe gl36 | cheylusp | Cheylus  Pierre 
+
+Groupe g7   | Equipe gl36 | eudelins | Eudeline  Simon 
+
+Groupe g7   | Equipe gl36 | roussval | Rousseau  Valentin 
+
+Groupe g7   | Equipe gl36 | wendlina | Wendling  Alexandre 
+
+Groupe g7   | Equipe gl37 | avomoa   | Avomo  Aurel Steve 
+
+Groupe g7   | Equipe gl37 | beraichy | Beraich  Yassir 
+
+Groupe g7   | Equipe gl37 | elyousff | El Yousfi  Fahd 
+
+Groupe g7   | Equipe gl37 | nounahm  | Nounah  Mohamed Khalil 
+
+Groupe g7   | Equipe gl37 | teel     | Tee  Liing Pang 
+
+Groupe g7   | Equipe gl38 | bekheddt | Bekhedda  Theo 
+
+Groupe g7   | Equipe gl38 | degouya  | Degouy  Arnaud 
+
+Groupe g7   | Equipe gl38 | dumaresv | Dumarest  Vincent 
+
+Groupe g7   | Equipe gl38 | lamyro   | Lamy  Robin 
+
+Groupe g7   | Equipe gl38 | planaguc | Planaguma Colom Coral
+
+Groupe g7   | Equipe gl39 | baront   | Baron  Thibaud 
+
+Groupe g7   | Equipe gl39 | daunoisn | Daunois  Nathan 
+
+Groupe g7   | Equipe gl39 | hudryji  | Hudry  Jimmy 
+
+Groupe g7   | Equipe gl39 | pardonjo | Pardon  Johan 
+
+Groupe g7   | Equipe gl39 | zavattey | Zavattero  Yann 
+
+Groupe g8   | Equipe gl40 | bacons   | Bacon  Samuel 
+
+Groupe g8   | Equipe gl40 | bertinr  | Bertin  Robin 
+
+Groupe g8   | Equipe gl40 | chaduteb | Chaduteau  Bruno 
+
+Groupe g8   | Equipe gl40 | lallemal | Lallemand  Louise 
+
+Groupe g8   | Equipe gl40 | tchingn  | Tching  Nicky 
+
+Groupe g8   | Equipe gl41 | hannanis | Hannani  Saad 
+
+Groupe g8   | Equipe gl41 | kwatedal | Kwate Dassi  Loic 
+
+Groupe g8   | Equipe gl41 | limv     | Lim  Vincent 
+
+Groupe g8   | Equipe gl41 | megzaria | Megzari  Abdelmoujib 
+
+Groupe g8   | Equipe gl41 | ouhidah  | Ouhida  Hakim 
+
+Groupe g8   | Equipe gl42 | cararob  | Cararo  Benjamin 
+
+Groupe g8   | Equipe gl42 | delayes  | Delaye  Sébastien 
+
+Groupe g8   | Equipe gl42 | falayege | Falaye-Galer  Eden 
+
+Groupe g8   | Equipe gl42 | magninsi | Magnin  Simon 
+
+Groupe g8   | Equipe gl42 | massyv   | Massy  Victor 
+
+Groupe g8   | Equipe gl43 | ardiets  | Ardiet  Simon 
+
+Groupe g8   | Equipe gl43 | challeta | Challet  Axel 
+
+Groupe g8   | Equipe gl43 | dupanloh | Dupanloup  Hugo 
+
+Groupe g8   | Equipe gl43 | meyratf  | Meyrat  Fabien 
+
+Groupe g8   | Equipe gl43 | uffoltzm | Uffoltz  Marie 
+
+Groupe g8   | Equipe gl44 | faillye  | Failly  Emilien 
+
+Groupe g8   | Equipe gl44 | kazmierl | Kazmierczak  Léo 
+
+Groupe g8   | Equipe gl44 | lemennj  | Le Menn  Jean 
+
+Groupe g8   | Equipe gl44 | mouddeni | Moudden  Ilyas 
+
+Groupe g8   | Equipe gl44 | petitmat | Petit  Matthieu 
+
+Groupe g8   | Equipe gl45 | becourle | Becourt  Léo 
+
+Groupe g8   | Equipe gl45 | noussea  | Nousse  Antonin 
+
+Groupe g8   | Equipe gl45 | segardt  | Segard  Timothee 
+
+Groupe g8   | Equipe gl45 | trouchet | Trouchet  Théo 
+
+Groupe g8   | Equipe gl45 | vaudeyj  | Vaudey  Jolahn 
+
+Groupe g9   | Equipe gl46 | bruyeret | Bruyère  Thibault 
+
+Groupe g9   | Equipe gl46 | cousinm  | Cousin  Marie 
+
+Groupe g9   | Equipe gl46 | delpuecj | Delpuech  Julien 
+
+Groupe g9   | Equipe gl46 | hoogvelk | Hoogveld  Karmijn 
+
+Groupe g9   | Equipe gl46 | marionm  | Marion  Mathis 
+
+Groupe g9   | Equipe gl47 | bordaisa | Bordais  Anaëlle 
+
+Groupe g9   | Equipe gl47 | buisslua | Buisson  Luana 
+
+Groupe g9   | Equipe gl47 | delbosc  | Delbos  Chloe 
+
+Groupe g9   | Equipe gl47 | vergnem  | Vergne  Manon 
+
+Groupe g9   | Equipe gl47 | vincenfl | Vincent  Florian 
+
+Groupe g9   | Equipe gl48 | aitishah | Ait Ishaq  Hatime 
+
+Groupe g9   | Equipe gl48 | benlhaby | Benlhabib  Youssef 
+
+Groupe g9   | Equipe gl48 | elmahnin | El Mahni  Nisrine 
+
+Groupe g9   | Equipe gl48 | farissm  | Fariss  Meryem 
+
+Groupe g9   | Equipe gl48 | rahbaouw | Rahbaoui  Wadie 
+
+Groupe g9   | Equipe gl49 | aithammd | Ait Hammou  Driss 
+
+Groupe g9   | Equipe gl49 | ajjah    | Ajja  Hamza 
+
+Groupe g9   | Equipe gl49 | bentaibo | Bentaibi  Oussama 
+
+Groupe g9   | Equipe gl49 | daoudy   | Daoud  Youssef 
+
+Groupe g9   | Equipe gl49 | leachouk | Leachouri  Khalil 
+
+Groupe g9   | Equipe gl50 | boumoury | Boumour  Yassine 
+
+Groupe g9   | Equipe gl50 | khallouh | Khallouki  Hamza 
+
+Groupe g9   | Equipe gl50 | ounaggon | Ounaggou  Nadir 
+
+Groupe g9   | Equipe gl50 | saadyo   | Saad  Youssef 
+
+Groupe g9   | Equipe gl50 | tbera    | Tber  Abdelmalek 
+
+Groupe g9   | Equipe gl51 | bahijs   | Bahij  Samy 
+
+Groupe g9   | Equipe gl51 | boulagus | Boulaguiem  Saad 
+
+Groupe g9   | Equipe gl51 | fandione | Fandio Njylla  Esdras Emma 
+
+Groupe g9   | Equipe gl51 | guenounz | Guenoun  Zakaria 
+
+Groupe g9   | Equipe gl51 | hancea   | Hance  Anaël 
+
+Groupe g10  | Equipe gl52 | caffinc  | Caffin  Clement 
+
+Groupe g10  | Equipe gl52 | capletc  | Caplet  Chloé 
+
+Groupe g10  | Equipe gl52 | peyrichn | Peyrichou  Nicolas 
+
+Groupe g10  | Equipe gl52 | ravenelp | Ravenel  Pierre 
+
+Groupe g10  | Equipe gl52 | serrandn | Serrand  Nicolas 
+
+Groupe g10  | Equipe gl53 | bugaudz  | Bugaud  Zacharie 
+
+Groupe g10  | Equipe gl53 | degoerdb | De Goer De Herve  Baptiste 
+
+Groupe g10  | Equipe gl53 | gautiebl | Gautier  Blandine 
+
+Groupe g10  | Equipe gl53 | portasfa | Portas  Fabien 
+
+Groupe g10  | Equipe gl53 | thiebani | Thiebaut  Niels-Odalric 
+
+Groupe g10  | Equipe gl54 | chenle   | Chen  Lezhi 
+
+Groupe g10  | Equipe gl54 | ennajimm | En-Najimi  Maryem 
+
+Groupe g10  | Equipe gl54 | mounsith | Mounsit  Halima 
+
+Groupe g10  | Equipe gl54 | ouazzanm | Ouazzani-Chahdi  Mouna 
+
+Groupe g10  | Equipe gl54 | sarranj  | Sarran  Jules 
+
+Groupe g10  | Equipe gl55 | bonettix | Bonetti  Xavier 
+
+Groupe g10  | Equipe gl55 | ducornag | Ducornaud  Gatien 
+
+Groupe g10  | Equipe gl55 | nadjard  | Nadjar  David 
+
+Groupe g10  | Equipe gl55 | ollimaxi | Ollivier  Maxime 
+
+Groupe g10  | Equipe gl55 | vandersg | Van Der Schot  Gabriel 
+
+Groupe g10  | Equipe gl56 | devriesa | Devriesere  Aymeric 
+
+Groupe g10  | Equipe gl56 | dupontdb | Dupont De Dinechin  Barnabé 
+
+Groupe g10  | Equipe gl56 | laberger | Labergere  Rémi 
+
+Groupe g10  | Equipe gl56 | ouichoue | Ouichou  El Mehdi 
+
+Groupe g10  | Equipe gl56 | sesea    | Sese  Antoine 
+
+Groupe g10  | Equipe gl57 | benkhali | Ben Khaldoun  Ismail 
+
+Groupe g10  | Equipe gl57 | guerillf | Guerillot  Florian 
+
+Groupe g10  | Equipe gl57 | guyb     | Guy  Baptiste 
+
+Groupe g10  | Equipe gl57 | martinsd | Martins  Damien 
+
+Groupe g10  | Equipe gl57 | sauvatg  | Sauvat  Guillaume 

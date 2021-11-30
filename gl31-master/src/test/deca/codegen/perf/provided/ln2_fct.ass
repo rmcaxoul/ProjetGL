@@ -1,0 +1,138 @@
+	ADDSP #13
+; Table des méthodes
+; Code de la table de méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD Code.Object.equals, R0
+	STORE R0, 2(GB)
+; Code de la table de méthode de Polyexp
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD Code.Object.equals, R0
+	STORE R0, 4(GB)
+	LOAD Code.Polyexp.pexp, R0
+	STORE R0, 5(GB)
+; Fin de la table des méthodes
+; Début du main program
+; Sauvegarde des registres
+	NEW #1, R2
+	LEA 3(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Polyexp
+	POP R2
+; Restoration des registres
+	STORE R2, 6(GB)
+	LOAD #0x0.0p0, R2
+	STORE R2, 7(GB)
+	LOAD #0x1.0p0, R2
+	STORE R2, 8(GB)
+	OPP #0x1.0p0, R2
+	STORE R2, 9(GB)
+	LOAD #0x1.6fc2ecp-1, R2
+	STORE R2, 10(GB)
+	BRA E_cond.0
+E_debut.0:
+; Appel méthode pexp
+	ADDSP #2
+	LOAD 6(GB), R2
+	STORE R2, 0(SP)
+	LOAD 7(GB), R2
+	ADD 8(GB), R2
+	DIV #0x1.0p1, R2
+	STORE R2, 11(GB)
+	STORE R2, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 12(GB)
+	CMP #0x0.0p0, R2
+	BLE sinon1
+	LOAD 11(GB), R2
+	STORE R2, 8(GB)
+	LOAD 12(GB), R2
+	STORE R2, 10(GB)
+	BRA End_if.1
+sinon1:
+	LOAD 11(GB), R2
+	STORE R2, 7(GB)
+	LOAD 12(GB), R2
+	STORE R2, 9(GB)
+End_if.1:
+E_cond.0:
+	LOAD 8(GB), R2
+	LOAD 7(GB), R3
+	ADD #0x1.0p-23, R3
+	CMP R3, R2
+	BGE E_debut.0
+	LOAD 7(GB), R1
+	WFLOAT
+	WSTR " = "
+	LOAD 7(GB), R1
+	WFLOATX
+	WNL
+	HALT
+; Fin du main program
+init.Polyexp:
+	LOAD -2(LB), R1
+	RTS
+Code.Object.equals:
+; Sauvegarde des registres
+	LOAD -2(LB), R0
+	CMP -3(LB), R0
+	BRA Fin.Object.equals
+	WSTR "Erreur : sortie de la méthode equals sans return"
+	WNL
+	ERROR
+Fin.Object.equals:
+; Restoration des registres
+	RTS
+Code.Polyexp.pexp:
+; Sauvegarde des registres
+	LOAD -3(LB), R0
+	LOAD -3(LB), R1
+	LOAD -3(LB), R2
+	LOAD -3(LB), R3
+	LOAD -3(LB), R4
+	LOAD -3(LB), R5
+	LOAD -3(LB), R6
+	LOAD #0x1.0p0, R7
+	DIV #0x1.3bp12, R7
+	MUL R7, R6
+	LOAD #0x1.0p0, R7
+	DIV #0x1.68p9, R7
+	ADD R7, R6
+	MUL R6, R5
+	LOAD #0x1.0p0, R6
+	DIV #0x1.ep6, R6
+	ADD R6, R5
+	MUL R5, R4
+	LOAD #0x1.0p0, R5
+	DIV #0x1.8p4, R5
+	ADD R5, R4
+	MUL R4, R3
+	LOAD #0x1.0p0, R4
+	DIV #0x1.8p2, R4
+	ADD R4, R3
+	MUL R3, R2
+	LOAD #0x1.0p0, R3
+	DIV #0x1.0p1, R3
+	ADD R3, R2
+	MUL R2, R1
+	ADD #0x1.0p0, R1
+	MUL R1, R0
+	LOAD #1, R1
+	FLOAT R1, R1
+	SUB R1, R0
+	BRA Fin.Polyexp.pexp
+	WSTR "Erreur : sortie de la méthode pexp sans return"
+	WNL
+	ERROR
+Fin.Polyexp.pexp:
+; Restoration des registres
+	RTS
+; Messages d'erreur
+; Fin des messages d'erreur

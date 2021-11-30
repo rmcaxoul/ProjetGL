@@ -1,0 +1,33 @@
+// Description:
+//    Programme avancé pour test context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 15/01/2021
+{
+    float f = 3.5, g = 4.7;
+    boolean b = true;
+    int i = 0;
+    float res = f*g;
+    while(b && f <= g){
+        i = i + 1;
+        if(i > 10){
+            b = false;
+        }
+    }
+    while(!b && res > g){
+        i = i - 1;
+        g = g + 1;
+    }
+    if(i > 0){
+        print("victoire");
+    }
+    else if(i == 0){
+        print("defeat");
+    }
+    else{
+        print("i = ",i);
+    }
+}

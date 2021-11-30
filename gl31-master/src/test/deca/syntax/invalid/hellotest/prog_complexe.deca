@@ -1,0 +1,12 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour hello-world
+//
+// Resultats:
+//    Ligne 11 : Erreur, ';' manquant
+//
+// Historique:
+//    cree le 08/01/2021
+{
+    println("Ligne correcte");
+    print("Ligne incorrecte")
+}

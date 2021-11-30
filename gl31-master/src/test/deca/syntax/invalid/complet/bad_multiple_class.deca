@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 15 : Erreur, '}' manquant
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    void methodeTest(int param1, float param2){
+        print(param1,param2);
+    }
+}
+class Test2{

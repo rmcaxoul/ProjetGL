@@ -1,0 +1,16 @@
+// Description:
+//    Affectation et typage : associe une string a une string
+//
+// Resultats:
+//    Ligne 15: Affectation de types compatibles mais '=' impossible
+//
+// Historique:
+//    cree le 08/01/2021
+
+{
+   string a;
+   string b;
+
+   // Doit etre refuse.
+   a = b;
+}

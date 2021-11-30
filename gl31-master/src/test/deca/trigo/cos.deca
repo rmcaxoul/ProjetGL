@@ -1,0 +1,22 @@
+// Description:
+//    Programme calculant le cosinus de plusieurs arguments
+//
+// Resultats:
+//    Succès
+// 
+// Historique:
+//    cree le 25/01/2021
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("cos(0.0) = ", m.cos(0.0));
+    println("cos(-0.0) = ", m.cos(-0.0));
+    println("cos(0.7853982) = ", m.cos(0.7853982));
+    println("cos(3.1415927) = ", m.cos(3.1415927));
+    println("cos(1.0) = ", m.cos(1.0));
+    println("cos(3.1415927) = ", m.cos(3.1415927));
+    println("cos(-1.5707964) = ", m.cos(-1.5707964));
+    println("cos(-10.0) = ", m.cos(-10.0));
+}

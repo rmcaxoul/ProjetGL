@@ -1,0 +1,17 @@
+// Description:
+//    Test modulo % + comparaison
+//
+// Resultats:
+//    Succes : affiche 'est pair'
+// 
+// Historique:
+//    cree le 18/01/2021
+{
+    int a = 10;
+    if(a%2 != 0){
+        print("est impair");
+    }
+    else{
+        print("est pair");
+    }
+}

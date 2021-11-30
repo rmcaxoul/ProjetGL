@@ -1,0 +1,19 @@
+// Description:
+//    Comparaison while itération int
+//
+// Resultats:
+//    Succes : affiche '10
+//                      9'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 0;
+    int b = -1;
+    while(a < 10 && b < 10){
+        a = a + 1;
+        b = b + 1;
+    }
+    println(a);
+    print(b);
+}

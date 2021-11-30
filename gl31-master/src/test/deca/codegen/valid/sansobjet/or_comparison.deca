@@ -1,0 +1,18 @@
+// Description:
+//    Comparaison simple or fonctionnelle
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    boolean b = true;
+    boolean c = false;
+    if(b || c){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

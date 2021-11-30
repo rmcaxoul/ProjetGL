@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour hello-world
+//
+// Resultats:
+//    Ligne 9 : Erreur, '{' manquant
+//
+// Historique:
+//    cree le 08/01/2021
+    println("Programme incorrect");
+}

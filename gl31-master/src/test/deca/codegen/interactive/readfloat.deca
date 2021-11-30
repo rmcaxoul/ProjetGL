@@ -1,0 +1,12 @@
+// Description:
+//    Test interactif readFloat
+//
+// Resultats:
+//    Succès: affiche la valeur rentrée si c'est bien un float
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float f = readFloat();
+    print(f);
+}

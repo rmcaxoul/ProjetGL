@@ -1,0 +1,13 @@
+// Description:
+//    Multiplication simple int fonctionnelle
+//
+// Resultats:
+//    Succes : affiche '8'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 2;
+    int b = a*2;
+    print(b);
+}

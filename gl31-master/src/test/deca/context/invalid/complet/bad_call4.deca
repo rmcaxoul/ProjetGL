@@ -1,0 +1,22 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 21: Erreur, mauvais paramètres
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(int param1,float param2){
+        if(param2 > 2.00e5f){
+            return param1*2;
+        }
+        else{
+            return param2;
+        }
+    }
+}
+{
+    A a = new A();
+    int b = a.testMeth(6,true);
+}

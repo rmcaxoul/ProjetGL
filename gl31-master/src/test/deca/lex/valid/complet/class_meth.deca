@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme correct lexicalement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    int methodeTest(int param1, float param2){
+        print(param1,param2);
+    }
+}

@@ -1,0 +1,45 @@
+// Description:
+//    tests de programme correct syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    int a = readInt();
+    float d = readFloat();
+    //boolean b = new boolean();
+    //new non autorisé en deca sans objet
+    string victory = "you win";
+    string defeat = "you lose";
+
+    if(a >= 5){
+        if(b == true){
+            println(victory);
+            return true;
+        }
+        else if(d < 6.7){
+            b = true;
+        }
+        else{
+            println(defeat);
+            return false;
+        }
+    }
+    if(b == true){
+        while(a < 4){
+            a = a + 1;
+            d = d - 1;
+        }
+    }
+    if(d < 0){
+        println(victory);
+        return true;
+    }
+    else{
+        println("erreur");
+        //return null;
+        // null non autorisé dans deca sansobjet
+    }
+}

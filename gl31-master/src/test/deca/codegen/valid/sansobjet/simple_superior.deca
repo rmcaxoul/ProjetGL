@@ -1,0 +1,14 @@
+// Description:
+//    Test simple >
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 17/01/2021
+{
+    int a = 2;
+    if(a > 1){
+        print("ok");
+    }
+}

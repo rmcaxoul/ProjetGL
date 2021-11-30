@@ -1,0 +1,24 @@
+default:
+  image: maven:latest
+
+stages:
+    - build
+    - test
+
+include:
+  - template: 'Workflows/MergeRequest-Pipelines.gitlab-ci.yml'
+
+cache:
+  paths:
+    - .m2/repository/
+    - target/
+
+build:
+  stage: build
+  script:
+    - mvn compile
+
+verify:
+  stage: test
+  script:
+    - mvn clean verify

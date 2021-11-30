@@ -1,0 +1,23 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 22: Erreur, mauvais paramètres
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(boolean b){
+        if(b == true){
+            return 2;
+        }
+        else{
+            return 1;
+        }
+    }
+
+}
+{
+    A a = new A();
+    int b = a.testMeth(6,true);
+}

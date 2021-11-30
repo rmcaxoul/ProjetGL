@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 12 : Erreur, '=' non-valable
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    int a, b;
+
+    while(b = a){
+        print(b);
+    }
+}

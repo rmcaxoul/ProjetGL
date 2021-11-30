@@ -1,0 +1,25 @@
+// Description:
+//    Appel de méthode de classe
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    void affiche(int param1,boolean cond){
+        if(cond && param1 > 7){
+            print("no");
+        }
+        else if(!cond && param1 > 7){
+            print("ok");
+        }
+        else{
+            print("and.. no");
+        }
+    }
+}
+{
+    A a = new A();
+    a.affiche(9,false);
+}

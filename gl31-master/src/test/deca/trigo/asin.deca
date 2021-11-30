@@ -1,0 +1,21 @@
+// Description:
+//    Programme calculant l'arc sinus de plusieurs arguments
+//
+// Resultats:
+//    Succès
+// 
+// Historique:
+//    cree le 25/01/2021
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("asin(0.0) = ", m.asin(0.0));
+    println("asin(-0.0) = ", m.asin(-0.0));
+    println("asin(1.0) = ", m.asin(1.0));
+    println("asin(-1.0) = ", m.asin(-1.0));
+    println("asin(0.7853982) = ", m.asin(0.7853982));
+    println("asin(0.1) = ", m.asin(0.1));
+    println("asin(-0.4) = ", m.asin(-0.4));
+}

@@ -1,0 +1,16 @@
+// Description:
+//    Affectation et typage : associe un float a un boolean
+//
+// Resultats:
+//    Ligne 15: Affectation de types incompatibles.
+//
+// Historique:
+//    cree le 08/01/2021
+
+{
+   boolean a;
+   float b;
+
+   // Doit etre refuse.
+   a = b;
+}

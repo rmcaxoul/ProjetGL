@@ -1,0 +1,12 @@
+// Description:
+//    Test dépassement valeur min int
+//
+// Resultats:
+//    Ligne 10: int trop petit
+//
+// Historique:
+//    cree le 16/01/2021
+{
+   int a = -2147483649; // int min value = -2147483648
+}
+

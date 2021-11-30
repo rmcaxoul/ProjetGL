@@ -1,0 +1,17 @@
+// Description:
+//    Simple appel de méthode de classe
+//
+// Resultats:
+//    Succes : affiche '4'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    void affiche(int param){
+        print(param);
+    }
+}
+{
+    A a = new A();
+    a.affiche(4);
+}

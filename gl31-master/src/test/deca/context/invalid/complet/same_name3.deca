@@ -1,0 +1,10 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 10: Erreur, une classe porte déjà ce nom
+//
+// Historique:
+//    cree le 20/01/2021
+class Test{}
+class Test{}

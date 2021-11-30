@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme correct syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    boolean a,b;
+    int a;
+    // Pas dans sans objet
+    //a (a && b);
+}

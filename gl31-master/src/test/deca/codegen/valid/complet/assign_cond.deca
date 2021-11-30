@@ -1,0 +1,23 @@
+// Description:
+//    tests d'assign dans un if
+//
+// Resultats:
+//    Succès : affiche 'ok';
+//
+// Historique:
+//    cree le 24/01/2021
+class A{
+    int calcul(int param1){
+        return param1*2;
+    }
+}
+{
+    A a = new A();
+    int m;
+    if((m = a.calcul(3)) >= 6){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

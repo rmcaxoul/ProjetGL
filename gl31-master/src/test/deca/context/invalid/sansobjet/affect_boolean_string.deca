@@ -1,0 +1,16 @@
+// Description:
+//    Affectation et typage : associe un boolean a une string
+//
+// Resultats:
+//    Ligne 15: Affectation de types incompatibles.
+//
+// Historique:
+//    cree le 08/01/2021
+
+{
+   string a;
+   boolean b;
+
+   // Doit etre refuse.
+   a = b;
+}

@@ -1,0 +1,29 @@
+// Description:
+//    Test héritage avec méthode
+//
+// Resultats:
+//    Succes : affiche 'ok
+//                      ok3
+//                      ok4'
+// 
+// Historique:
+//    cree le 24/01/2021
+class A{}
+class B extends A{}
+{
+    A a = new A();
+    B b = new B();
+
+    if(a instanceof A){
+        println("ok");
+    }
+    if(a instanceof B){
+        println("ok2");
+    }
+    if(b instanceof A){
+        println("ok3");
+    }
+    if(b instanceof B){
+        println("ok4");
+    }
+}

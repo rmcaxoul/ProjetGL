@@ -1,0 +1,19 @@
+// Description:
+//    Test ifthenelse pour test context
+//
+// Resultats:
+//    Succes : ifthenelse écrit correctement
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    int a = 2;
+    int b = 3;
+
+    if(a < b){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

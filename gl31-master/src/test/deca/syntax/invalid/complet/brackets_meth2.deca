@@ -1,0 +1,12 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 11 : Erreur, '}' manquant
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    void toString(){
+        println("random");
+}

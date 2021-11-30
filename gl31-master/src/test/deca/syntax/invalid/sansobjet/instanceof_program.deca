@@ -1,0 +1,19 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 12 : Erreur, expression missing after 'instanceof'
+//
+// Historique:
+//    cree le 13/01/2021
+{
+    boolean b;
+
+    if(b instanceof){
+        print(b);
+    }
+    else{
+        print("no");
+    }
+}
+

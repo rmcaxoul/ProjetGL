@@ -1,0 +1,13 @@
+// Description:
+//    Test le dépassement (reboucle)
+//
+// Resultats:
+//    Succes : affiche '2147483647'
+// 
+// Historique:
+//    cree le 16/01/2021
+{
+    int i = -2147483647;
+    i = i - 2;
+    print(i);
+}

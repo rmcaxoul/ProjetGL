@@ -1,0 +1,22 @@
+// Description:
+//    Appel de méthode récursive (s'appelant elle-même)
+//
+// Resultats:
+//    Succes : affiche '1'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    int recursif(int param){
+        if(param >= 2){
+            return this.recursif(param/2);
+        }
+        else{
+            return param;
+        }
+    }
+}
+{
+    A a = new A();
+    print(a.recursif(64));
+}

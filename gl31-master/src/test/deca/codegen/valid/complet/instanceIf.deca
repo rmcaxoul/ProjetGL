@@ -1,0 +1,44 @@
+// Description:
+//    Test instanceof dans if
+//
+// Resultats:
+//    Succes : affiche 'ok ok ok ok ok'
+//
+// Historique:
+//    cree le 21/01/2021
+class D{}
+class A{
+    protected int a;
+}
+
+class B extends A{}
+
+
+{
+    B b = new B();
+    D d = new D();
+
+    if (d instanceof B){
+        print("not ok");
+    } else if (b instanceof A){
+        print("ok ");
+    }
+
+    if (b instanceof Object){
+        print("ok ");
+    }
+
+    if (d instanceof Object){
+        print("ok ");
+    }
+
+
+
+    if (!(d instanceof B)){
+        print("ok ");
+	    if ((d instanceof Object) && (b instanceof A)){
+            print("ok");
+        }
+
+    }
+}

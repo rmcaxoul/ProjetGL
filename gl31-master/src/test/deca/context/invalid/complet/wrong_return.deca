@@ -1,0 +1,15 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 14 : Mauvais type return
+//
+// Historique:
+//    cree le 19/01/2021
+
+class A{
+    int a(float a){
+        boolean b = true;
+        return b;
+    }
+    }

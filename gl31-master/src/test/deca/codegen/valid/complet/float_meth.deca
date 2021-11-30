@@ -1,0 +1,17 @@
+// Description:
+//    Appel de méthode de classe avec return
+//
+// Resultats:
+//    Succes : affiche '4.00500e7'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    float calcul(){
+        return 4.00500e7f;
+    }
+}
+{
+    A a = new A();
+    print(a.calcul());
+}

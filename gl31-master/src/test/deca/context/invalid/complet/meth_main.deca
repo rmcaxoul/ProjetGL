@@ -1,0 +1,13 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 10: Erreur, pas de méthodes dans main
+//
+// Historique:
+//    cree le 20/01/2021
+{
+    int methTest(void param1){
+        return param1;
+    }
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Test plusieurs déclarations sur la même ligne
+//
+// Resultats:
+//    Succes : affiche '6'
+// 
+// Historique:
+//    cree le 16/01/2021
+{
+    int i = 1, j = 2, k = 3;
+    print(i+j+k);
+}

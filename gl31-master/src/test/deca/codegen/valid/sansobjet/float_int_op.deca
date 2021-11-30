@@ -1,0 +1,13 @@
+// Description:
+//    Test float = int + float
+//
+// Resultats:
+//    Succes : affiche '3.11'
+//
+// Historique:
+//    cree le 16/01/2021
+{
+    int i = 3;
+    float f = i + 1.1e-1f;
+    print(f);
+}

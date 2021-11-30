@@ -1,0 +1,17 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 12: Erreur, le type B n'existe pas
+//
+// Historique:
+//    cree le 20/01/2021
+class A
+{
+    A a;
+    void test() {
+        if(a instanceof B){
+            print("no");
+        }
+    }
+}

@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect lexicalement pour hello-world
+//
+// Resultats:
+//    Ligne 11 : Erreur, commentaire monoligne depasse
+//
+// Historique:
+//    cree le 07/01/2021
+
+//Commentaire
+monoligne

@@ -1,0 +1,25 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 16 : Erreur, 'a 1' non-valable
+//
+// Historique:
+//    cree le 13/01/2021
+{
+    int a = 2;
+    float c = 3;
+    float d = readFloat();
+    //boolean b = new boolean();
+
+    while(a < 10 && b == true){
+        a = a 1;
+        d = d - 1;
+        if(d == 0){
+            b = false;
+        }
+    }
+
+    println(a*c);
+    //return a;
+}

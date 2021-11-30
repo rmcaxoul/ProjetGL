@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme correct syntaxiquement pour hello-world
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 14/01/2021
+{
+    println("On affiche un guillemet: \"");
+}

@@ -1,0 +1,18 @@
+// Description:
+//    Appel de d'attribut avec protected
+//
+// Resultats:
+//    Succes : affiche '76'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    protected int index = 76;
+    int getIndex(){
+        return index;
+    }
+}
+{
+    A a = new A();
+    print(a.getIndex());
+}

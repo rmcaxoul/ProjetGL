@@ -1,0 +1,31 @@
+// Description:
+//    Appel de méthodes dans une comparaison booleenne
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    boolean vrai(){
+        return true;
+    }
+    boolean vraiFaux(boolean b){
+        if(b){
+            return true;
+        }
+        return false;
+    }
+}
+{
+    A a = new A();
+    if(a.vrai() && a.vraiFaux(false)){
+        print("no");
+    }
+    else if(a.vrai() || a.vraiFaux(false)){
+        print("ok");
+    }
+    else{
+        print("no again");
+    }
+}

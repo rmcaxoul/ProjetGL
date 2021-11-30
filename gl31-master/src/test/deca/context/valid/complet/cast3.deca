@@ -1,0 +1,12 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 24/01/2021
+{
+    boolean b;
+    boolean c = (boolean)(b);
+}

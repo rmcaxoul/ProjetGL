@@ -1,0 +1,25 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    protected int a;
+    protected boolean b;
+
+    void methTest(int param){
+        if(b){
+            a = param;
+            print(a);
+        }
+        else{
+            while(a <= param){
+                a = a + 1;
+            }
+            print(a);
+        }
+    }
+}

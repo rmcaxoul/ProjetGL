@@ -1,0 +1,21 @@
+// Description:
+//    Appel de méthode de classe
+//
+// Resultats:
+//    Succes : affiche 'ok' sur 5 lignes
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    void www(int nbr){
+        int i = 0;
+        while(i < nbr){
+            i = i+1;
+            println("ok");
+        }
+    }
+}
+{
+    A a = new A();
+    a.www(5);
+}

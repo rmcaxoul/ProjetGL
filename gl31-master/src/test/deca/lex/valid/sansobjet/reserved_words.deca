@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme correct lexicalement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+
+asm extends else false if readInt readFloat print println printx printlnx
+protected true while

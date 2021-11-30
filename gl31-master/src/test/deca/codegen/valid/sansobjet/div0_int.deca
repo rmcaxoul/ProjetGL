@@ -1,0 +1,12 @@
+// Description:
+//    Division par 0 (int)
+//
+// Resultats:
+//    En sortie: 'Erreur : division par zéro'
+//
+// Historique:
+//    cree le 15/01/2021
+{
+   int a = 2;
+   int b = a/0;
+}

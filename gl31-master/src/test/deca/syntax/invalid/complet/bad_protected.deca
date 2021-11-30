@@ -1,0 +1,12 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 10 : Erreur, 'protecte' manquant
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    protecte int a;
+}
+

@@ -1,0 +1,18 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class Test{
+    int methInt(){
+        int a = 2;
+        return a;
+    }
+}
+{
+    Test t = new Test();
+    print(t.methInt());
+}

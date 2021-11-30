@@ -1,0 +1,13 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    protected int a;
+    protected float f;
+    protected boolean b;
+}

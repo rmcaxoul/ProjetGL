@@ -1,0 +1,11 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 12: Erreur, le type A n'existe pas
+//
+// Historique:
+//    cree le 20/01/2021
+{
+    A a;
+}

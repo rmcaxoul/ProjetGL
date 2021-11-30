@@ -1,0 +1,22 @@
+// Description:
+//    Test ifthenelse pour test context
+//
+// Resultats:
+//    Succes : ifthenelse écrit correctement
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    boolean b = true;
+    boolean d = false;
+
+    if(d){
+        print("no");
+    }
+    else if(b && d){
+        print("ah.. no");
+    }
+    else{
+        print("ok");
+    }
+}

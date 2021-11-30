@@ -1,0 +1,24 @@
+// Description:
+//    tests d'assign dans un while
+//
+// Resultats:
+//    Succès : affiche '0
+//                      0'
+//
+// Historique:
+//    cree le 24/01/2021
+class A{
+    int calcul(int param1){
+        return param1*2;
+    }
+}
+{
+    A a = new A();
+    int m;
+    int i = 3;
+    while((m = a.calcul(i)) > 0){
+        i = i - 1;
+    }
+    println(m);
+    println(i);
+}

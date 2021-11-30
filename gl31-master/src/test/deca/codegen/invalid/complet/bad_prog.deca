@@ -1,0 +1,16 @@
+// Description:
+//    Test int = float (meth)
+//
+// Resultats:
+//    Ligne 15: perte de précision dûe à la conversion
+//
+// Historique:
+//    cree le 16/01/2021
+class A{
+    float methFloat(){
+        return 3.04e-6f;
+    }
+}
+{
+    int i = methFloat();
+}

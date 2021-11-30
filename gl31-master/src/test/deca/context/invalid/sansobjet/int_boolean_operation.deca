@@ -1,0 +1,16 @@
+// Description:
+//    Opérations : entre un float et un boolean
+//
+// Resultats:
+//    Erreur : Types incompatibles, opération interdite
+//
+// Historique:
+//    cree le 13/01/2021
+
+{
+    float a;
+    boolean b;
+    float r;
+    r = a - b;
+}
+

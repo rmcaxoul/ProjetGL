@@ -1,0 +1,14 @@
+// Description:
+//    Test simple <
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 17/01/2021
+{
+    float f = 2.001e9f;
+    if(f < 2.001e10){
+        print("ok");
+    }
+}

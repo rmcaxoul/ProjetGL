@@ -1,0 +1,12 @@
+// Description:
+//    Typage : associe un type inconnu de l'analyseur contextuel
+//
+// Resultats:
+//    Ligne 11: Affectation de type impossible, 'it' n'est pas un type
+//
+// Historique:
+//    cree le 13/01/2021
+
+{
+   it a;
+}

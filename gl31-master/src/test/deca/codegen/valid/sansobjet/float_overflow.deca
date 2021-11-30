@@ -1,0 +1,13 @@
+// Description:
+//    Test le dépassement de float
+//
+// Resultats:
+//    Succes : affiche '3.4028235E38'
+// 
+// Historique:
+//    cree le 16/01/2021
+{
+    float f = 3.4028235E38f;
+    float g = f + 0.0000001E38f;
+    print(g);
+}

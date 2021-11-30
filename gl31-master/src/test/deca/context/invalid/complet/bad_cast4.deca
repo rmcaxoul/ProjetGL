@@ -1,0 +1,12 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11: Erreur, conversion boolean en float impossible
+//
+// Historique:
+//    cree le 24/01/2021
+{
+    boolean b;
+    float a = (float)(b);
+}

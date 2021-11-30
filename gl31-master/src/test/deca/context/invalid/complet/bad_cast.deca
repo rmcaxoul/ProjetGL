@@ -1,0 +1,12 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11: Erreur, conversion int en boolean impossible
+//
+// Historique:
+//    cree le 24/01/2021
+{
+    int a;
+    boolean b = (boolean)(a);
+}

@@ -1,0 +1,17 @@
+// Description:
+//    Appel de méthode de classe avec return cast
+//
+// Resultats:
+//    Succes : affiche '5.00000e+00'
+// 
+// Historique:
+//    cree le 24/01/2021
+class A{
+    float calcul(int param){
+        return (float)(param);
+    }
+}
+{
+    A a = new A();
+    print(a.calcul(5));
+}

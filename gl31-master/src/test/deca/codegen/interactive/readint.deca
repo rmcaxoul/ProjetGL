@@ -1,0 +1,13 @@
+// Description:
+//    Test interactif readInt
+//
+// Resultats:
+//    Succès: affiche la valeur rentrée si c'est bien un int
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    int i = readInt();
+    print(i);
+}
+

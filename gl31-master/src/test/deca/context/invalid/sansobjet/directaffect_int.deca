@@ -1,0 +1,11 @@
+// Description:
+//    Typage : associe true à un int
+//
+// Resultats:
+//    Ligne 10: Affectation de type impossible, 'int' ne peut pas valoir 'true'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+   int a = true;
+}

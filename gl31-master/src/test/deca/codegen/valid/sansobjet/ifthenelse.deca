@@ -1,0 +1,22 @@
+// Description:
+//    Suite de conditions if then else
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    boolean a = true;
+    boolean b = true;
+    boolean c = false;
+    if(b && c){
+        print("no");
+    }
+    else if(a || c){
+        print("ok");
+    }
+    else{
+        print("no again");
+    }
+}

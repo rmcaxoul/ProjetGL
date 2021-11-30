@@ -1,0 +1,17 @@
+// Description:
+//    Test !boolean simple fonctionnel
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    boolean b = true;
+    if(!b){
+        print("no");
+    }
+    else{
+        print("ok");
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    int methodeTest(int param1, int param2){
+        return param1*param2;
+    }
+}

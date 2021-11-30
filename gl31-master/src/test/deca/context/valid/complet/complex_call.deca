@@ -1,0 +1,31 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    boolean methBool(){
+        return true;
+    }
+}
+class B{
+    boolean methBool(){
+        return false;
+    }
+}
+{
+    A a;
+    B b;
+    if(a.methBool() && b.methBool()){
+        print("no");
+    }
+    else if(a.methBool()){
+        print("yessay");
+    }
+    else{
+        print("neh");
+    }
+}

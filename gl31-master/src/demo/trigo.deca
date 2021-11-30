@@ -1,0 +1,9 @@
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("cos(0.0) = ", m.sin(0.0);
+    println("sin(π/2) = ", m.sin(1.5707964));
+    println("cos(21π) = ", m.sin(21*3.1415927));
+    println("sin(-4) = ", m.sin(-4));
+}

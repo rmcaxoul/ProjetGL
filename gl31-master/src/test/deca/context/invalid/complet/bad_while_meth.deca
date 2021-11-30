@@ -1,0 +1,19 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 16: Erreur, testMeth ne renvoie pas un boolean
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(){
+        return 2;
+    }
+}
+{
+    A a;
+    while(a.testMeth()){
+        print("no");
+    }
+}

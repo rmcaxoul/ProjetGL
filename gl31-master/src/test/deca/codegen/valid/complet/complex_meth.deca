@@ -1,0 +1,40 @@
+// Description:
+//    Appel de méthode appelant méthodes
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    float calculMult(float param){
+        return param*2;
+    }
+    float calculPlus(float param){
+        return param+2;
+    }
+}
+class B extends A{
+    int calculInt(int param){
+        return param*5;
+    }
+}
+class C extends B{
+    boolean vraiFaux(float f, int i, boolean b){
+        if(this.calculPlus(f) > i){
+            if(b){
+                return true;
+            }
+        }
+        return false;
+    }
+}
+{
+    C c = new C();
+    if(c.vraiFaux(c.calculMult(7.00e+00),c.calculInt(3),true)){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

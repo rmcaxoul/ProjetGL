@@ -1,0 +1,13 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11: Erreur, méthode void ne doit rien renvoyer
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    void testMeth(int param){
+        return param;
+    }
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Test dépassement valeur max int
+//
+// Resultats:
+//    Ligne 10: int trop grand
+//
+// Historique:
+//    cree le 15/01/2021
+{
+   int a = 2147483648; // int max value = 2147483647
+}

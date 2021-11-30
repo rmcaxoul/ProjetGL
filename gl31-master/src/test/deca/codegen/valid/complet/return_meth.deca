@@ -1,0 +1,20 @@
+// Description:
+//    Méthode retourne méthode
+//
+// Resultats:
+//    Succes : affiche '4'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    int ret(int param){
+        return param*2;
+    }
+    int call(int param){
+        return this.ret(param);
+    }
+}
+{
+    A a = new A();
+    print(a.call(2));
+}

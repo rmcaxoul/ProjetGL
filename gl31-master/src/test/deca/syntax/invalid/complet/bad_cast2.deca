@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 11 : Erreur, ')' manquant
+//
+// Historique:
+//    cree le 24/01/2021
+{
+    int a
+    //float f = (float(a);
+    //Le parser plante mais ne donne pas d'erreur.
+}

@@ -1,0 +1,15 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class Test{
+
+    int methTest(int param1){
+        println(param1);
+        return param1;
+    }
+}

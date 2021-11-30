@@ -1,0 +1,13 @@
+// Description:
+//    Addition simple int fonctionnelle
+//
+// Resultats:
+//    Succes : affiche '3'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 2;
+    int b = a + 1;
+    print(b);
+}

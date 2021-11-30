@@ -1,0 +1,26 @@
+// Description:
+//    Programme avancé pour test context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 15/01/2021
+{
+    int a = 3;
+    float b = 3.5;
+    boolean c = (a==3);
+    while (b == a + 7 / 4){
+        while ((b==3.5)==false){
+            print(a+b);
+        }
+    }
+    if (4 == (a*1234)){
+        print(21.0);
+    }
+    else{
+        if (c!= !c){
+            print("hello");
+        }
+    }
+}

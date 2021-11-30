@@ -1,0 +1,13 @@
+// Description:
+//    Test int = int - int
+//
+// Resultats:
+//    Succes : affiche '0'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    int i = -2;
+    int a = 2 + i;
+    print(a);
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11 : une variable porte déjà ce nom
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    protected int a;
+    protected float a;
+}

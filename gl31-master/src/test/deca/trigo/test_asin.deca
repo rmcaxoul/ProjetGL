@@ -1,0 +1,17 @@
+// Description:
+//    Test fonction arcsin de Math.decah
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 25/01/2021
+#include "Math.decah"
+{
+    Math m = new Math();
+    float arg = -1.0e+0;
+    while(arg <= 1.0e+0){
+        println(m.asin(arg));
+        arg = arg + 0.1;
+    }
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Variable manquante
+//
+// Resultats:
+//    Ligne 11: Pas de variable après '+'
+//
+// Historique:
+//    cree le 19/01/2021
+{
+   int a = 9;
+   float f = a +;
+}

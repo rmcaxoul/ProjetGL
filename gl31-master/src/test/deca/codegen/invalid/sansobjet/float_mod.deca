@@ -1,0 +1,13 @@
+// Description:
+//    Test float = float % float
+//
+// Resultats:
+//    Erreur, '%' ne fonctionne que pour les int
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float i = 3.003e10f;
+    float f = i % 5.302e4f;
+    print(f);
+}

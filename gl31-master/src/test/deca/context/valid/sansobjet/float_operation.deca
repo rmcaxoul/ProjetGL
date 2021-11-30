@@ -1,0 +1,18 @@
+// Description:
+//    Opérations : entre un float et un float
+//
+// Resultats:
+//    Succes : Types compatibles, opérations autorisées
+//
+// Historique:
+//    cree le 13/01/2021
+
+{
+    float a, b, c;
+
+    // Doit etre accepte.
+    a = b+c;
+    b = c-a;
+    c = b*a;
+    a = b/a;
+}

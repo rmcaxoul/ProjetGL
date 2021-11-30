@@ -1,0 +1,11 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 11 : une classe porte déjà ce nom
+//
+// Historique:
+//    cree le 19/01/2021
+
+class A{}
+class A{}

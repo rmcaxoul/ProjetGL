@@ -1,0 +1,22 @@
+// Description:
+//    Test fonction sinus de Math.decah
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 25/01/2021
+#include "Math.decah"
+{
+    Math m = new Math();
+    float arg = 0;
+    while(arg <= 1.00e+4){
+        println(m.sin(arg));
+        if(arg == 0.0e+0){
+            arg = 1.0e+0;
+        }
+        else{
+            arg = arg*10;
+        }
+    }
+}

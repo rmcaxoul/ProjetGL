@@ -1,0 +1,11 @@
+// Description:
+//    Typage : associe 6 à un string
+//
+// Resultats:
+//    Ligne 10: Affectation de type impossible, 'string' ne peut pas valoir '6'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+   string s = 6;
+}

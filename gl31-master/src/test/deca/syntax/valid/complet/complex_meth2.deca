@@ -1,0 +1,17 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    protected float f;
+    
+    void toString(int i){
+        while(i >= 8){
+            printlnx(f);
+        }
+    }
+}

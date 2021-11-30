@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect lexicalement pour hello-world
+//
+// Resultats:
+//    Ligne 10 : Erreur, chaine incomplete et présence de \n
+//
+// Historique:
+//    cree le 07/01/2021
+
+"Chaine multi-lignes
+mal terminee

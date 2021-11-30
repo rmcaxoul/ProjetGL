@@ -1,0 +1,14 @@
+// Description:
+//    Typage : condition int
+//
+// Resultats:
+//    Ligne 11: un int n'est pas une condition
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    int a = 67;
+    if(a){
+        print("ok");
+    }
+}

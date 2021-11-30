@@ -1,0 +1,12 @@
+// Description:
+//    Division par 0 (float & int)
+//
+// Resultats:
+//    En sortie: 'Erreur : division par zéro'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+   int a = 2;
+   float b = a/0;
+}

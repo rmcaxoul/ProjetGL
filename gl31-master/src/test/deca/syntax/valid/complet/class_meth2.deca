@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    int a;
+    void methodeTest(){
+        print(a);
+    }
+}

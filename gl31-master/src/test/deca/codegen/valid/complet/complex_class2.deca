@@ -1,0 +1,35 @@
+// Description:
+//    Test complexe codegen pour langage complet
+//
+// Resultats:
+//    Succes : affiche '10'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    protected int index;
+
+    void setIndex(int param){
+        index = param;
+    }
+    int getIndex(){
+        return index;
+    }
+}
+class B extends A{
+    boolean b;
+    
+    int methInt(int param){
+        while(param < 10){
+            param = param + 1;
+        }
+        return param;
+    }
+}
+{
+    B b = new B();
+    int res = b.methInt(b.getIndex());
+    b.b = true;
+    b.setIndex(8);
+    println(res);
+}

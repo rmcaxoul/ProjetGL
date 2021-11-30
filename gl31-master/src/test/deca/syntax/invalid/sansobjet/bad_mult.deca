@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 9 : Erreur, '**' non-valable
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    int a = 8;
+    int b = a**2;
+}
+

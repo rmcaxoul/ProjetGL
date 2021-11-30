@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect lexicalement (backslash unique)
+//    pour hello-world
+//
+// Resultats:
+//    ligne 10 : Erreur, backslash
+//
+// Historique:
+//    cree le 07/01/2021
+
+"backslash \ non reconnu"

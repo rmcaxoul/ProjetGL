@@ -1,0 +1,31 @@
+// Description:
+//    Programme complexe et complet
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 0;
+    int b = 5;
+    boolean c = true;
+
+    while(a < b){
+        a = a + 1;
+        c = !c;
+    }
+
+    if(c){
+        print("no");
+    }
+
+    while(!c){
+        b = b + 1;
+        c = !c;
+    }
+
+    if(b == 6){
+        print("ok");
+    }
+}

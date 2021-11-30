@@ -1,0 +1,17 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 16: Erreur, la méthode n'existe pas
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(int param1,float param2){
+        return param*2;
+    }
+}
+{
+    A a = new A();
+    int b = a.testOtherMeth(6,2.3e5f);
+}

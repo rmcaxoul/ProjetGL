@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 10 : Erreur, '()' manquant
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    boolean b = new boolean;
+}

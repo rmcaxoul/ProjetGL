@@ -1,0 +1,190 @@
+// Grenoble INP - Ensimag projet GL -*- mode: java -*-
+// Bibliothèque pour la classe Math de Deca, codé en Deca
+
+class Math {
+
+    // Flottants approximant PI, PI/2 et PI/4 
+    float PI = 3.1415927;
+    float PI_2 = 1.5707964;
+    float PI_4 = 0.7853982;
+
+    // Retourne l'Unit in the Last Place de f
+    float ulp (float f) {
+        return this._power2(-23) * this._power2(this._getExponent(f));
+    }
+
+    // Retourne le sinus de a
+    float sin (float a) {
+        float S1 = -0.16666667;
+        float S2 = 8.3333333e-3;
+        float S3 = -1.9841270e-4;
+        float S4 = 2.7557314e-6;
+        float S5 = -2.5050760e-8;
+        float S6 = 1.5896910e-10;
+        float sign = 1.0;
+        float square;
+        float cube;
+        a = this._modulo2PI(a);
+        if (a < 0) {
+            sign = -1.0;
+        }
+        a = this._abs(a);
+        if (a <= this.PI_4) {
+            square = a * a;
+            cube = square * a;
+            return sign * (a + cube * (S1 + square * (S2 + square * (S3 + square * (S4 + square * (S5 + square * S6))))));
+        } else if (a < this.PI_2) {
+            return sign * (this.cos(this.PI_2 - a));
+        } else {
+            return sign * (this.cos(a - this.PI_2));
+        }
+    }
+
+    // Retourne le cosinus de a
+    float cos (float a) {
+        float C1 = 0.041666668;
+        float C2 = -1.3888889e-3;
+        float C3 = 2.480158e-5;
+        float C4 = -2.7557314e-7;
+        float C5 = 2.0875723e-9;
+        float C6 = -1.1359648e-11;
+        float sign = 1.0;
+        float square;
+        a = this._modulo2PI(a);
+        if ((a < (-1.0) * this.PI_2) || (a > this.PI_2)){
+            sign = -1.0;
+        }
+        a = this._abs(a);
+        if (a <= this.PI_4) {
+            square = a * a;
+            return sign * (1 - square * (0.5 + square * (C1 + square * (C2 + square * (C3 + square * (C4 + square * (C5 + square * C6)))))));
+        } else if (a < this.PI_2) {
+            return sign * (this.sin(this.PI_2 - a));
+        } else {
+            return sign * (this.sin(a - this.PI_2));
+        }
+    }
+
+    /** Retourne l'arc sinus de a
+    * precondition : -1 < a < 1
+    * post-condition : -PI/2 (-1.5707964) < asinus(a) < PI/2 (1.5707964)
+    */
+    float asin (float a) {
+        float sign = 1.0;
+        float square;
+        float cube;
+        float A1;
+        float A2;
+        float A3;
+        float A4;
+        if ((a < -1) || (a > 1)) {
+            return 0;
+        } else {
+
+            if (a < 0) {
+                sign = -1.0;
+            }
+            a = this._abs(a);
+            square = a * a;
+            cube = square * a;
+            if (a < 0.5) {
+                A1 = 0.16666667;
+                A2 = 0.075;
+                A3 = 4.4642857e-2;
+                return sign * (a + cube * (A1 + square * (A2 + square * A3)));
+            } else {
+                A1 = 1.5707288;
+                A2 = -0.2121144;
+                A3 = 0.0742610;
+                A4 = -0.0187293;
+                return sign * (this.PI_2 - this._sqrt(1 - a) * (A1 + a * A2 + square * A3 + cube * A4));
+            }
+        }
+    }
+
+    // Retourne l'arc tangente de a
+    float atan (float a) {
+        if ((a < -1) || (a > 1)) {
+            return  2 * this.atan(a / (1 + this._sqrt(1 + a * a)));
+        } else {
+            return  a * (this.PI_4 + 0.273 * (1 - this._abs(a)));
+        }
+    }
+
+    // Retourne la valeur absolue de a
+    float _abs(float a) {
+        if (a < 0) {
+            return -a;
+        }
+        return a;
+    }
+
+    // Retourne le modulo 2 PI de a dans le domaine [-PI/2, PI/2]
+    float _modulo2PI(float a) {
+        if (a < (-1) * this.PI) {
+            while (a < (-1) * this.PI) {
+                a = a + 2 * this.PI;
+            }
+        } else if (a > this.PI) {
+            while (a > this.PI) {
+                a = a - 2 * this.PI;
+            }
+        }
+        return a;
+    }
+
+    // Retourne la racine carrée de a
+    float _sqrt(float a) {
+        float temp = -1;
+        float un = a;
+        int i = 0;
+        if (a <= 0){
+            return 0;
+        }
+        while ((un != temp) && (i < 32)) {
+            temp = un;
+            un = (un + a / un) / 2;
+            i = i + 1;
+        }
+        return un;
+    }
+
+    // Retourne le résultat de 2 puissance pow
+    float _power2(int pow){
+        int index = 0;
+        float res = 1.00e+00;
+        if(pow > 0){
+            while(index < pow){
+                index = index + 1;
+                res = res * 2;
+            }
+        }
+        else{
+            while(index < -pow){
+                index = index + 1;
+                res = res / 2;
+            }
+        }
+        return res;
+    }
+
+    // Retourne l'exposant non-biaisé de f
+    int _getExponent(float f){
+        int res = 0;
+        float pow = 1.00e+00;
+        if(f >= 1){
+            res = -1;
+            while(pow < f){
+                pow = pow * 2;
+                res = res + 1;
+            }
+        }
+        else{
+            while(pow > f){
+                pow = pow / 2;
+                res = res - 1;
+            }
+        }
+        return res;
+    }
+}

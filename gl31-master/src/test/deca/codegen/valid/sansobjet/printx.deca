@@ -1,0 +1,12 @@
+// Description:
+//    Test plusieurs déclarations sur la même ligne
+//
+// Resultats:
+//    Succes : affiche '0x1.797b3cp+61'
+// 
+// Historique:
+//    cree le 17/01/2021
+{
+    float f = 3.40005e18;
+    printx(f);
+}

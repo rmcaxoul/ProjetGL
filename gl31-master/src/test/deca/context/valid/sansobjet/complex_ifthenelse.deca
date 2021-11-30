@@ -1,0 +1,33 @@
+// Description:
+//    Test ifthenelse complexe pour test context
+//
+// Resultats:
+//    Succes : ifthenelse écrit correctement
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float f = 2.45e4f;
+    int i = 3;
+    boolean b = true;
+
+    if(i < f){
+        b = false;
+    }
+    else{
+        print("no");
+    }
+
+    if(i == 2){
+        print("faux");
+    }
+    else if(b){
+        if(!b){
+            print("impossible");
+        }
+        print("toujours pas");
+    }
+    else{
+        f = 0;
+    }
+}

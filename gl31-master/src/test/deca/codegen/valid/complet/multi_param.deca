@@ -1,0 +1,30 @@
+// Description:
+//    Appel de méthode de classe avec return
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    boolean vrai(int param1,float param2,boolean param3){
+        if(param3){
+            return false;
+        }
+        else if(param2 > 2.00e4f && param1 <= 8){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+{
+    A a = new A();
+    if(a.vrai(8,1.00e6f,false)){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

@@ -1,0 +1,24 @@
+// Description:
+//    Programme if avec comparaisons complexes
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 18/01/2021
+{
+    boolean b = true;
+    boolean c = false;
+    boolean e = false;
+    boolean d = false;
+    boolean f = true;
+    if(b && c || d){
+        print("no");
+    }
+    else if(e && f){
+        print("nooo");
+    }
+    else{
+        print("ok");
+    }
+}

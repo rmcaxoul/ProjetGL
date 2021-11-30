@@ -1,0 +1,11 @@
+// Description:
+//    Test dépassement valeur max float
+//
+// Resultats:
+//    Ligne 10: float trop grand
+//
+// Historique:
+//    cree le 16/01/2021
+{
+    float f = 3.4028236E38f; //float min value = 3.4028235E38
+}

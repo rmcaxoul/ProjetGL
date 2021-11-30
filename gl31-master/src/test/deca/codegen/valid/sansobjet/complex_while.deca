@@ -1,0 +1,22 @@
+// Description:
+//    Programme while avec comparaisons complexes
+//
+// Resultats:
+//    Succes : affiche '11'
+// 
+// Historique:
+//    cree le 18/01/2021
+{
+    boolean b = true;
+    boolean c = false;
+    boolean d = false;
+    boolean e = true;
+    int i = 0;
+    while(b && c || e){
+        if(i == 10){
+            e = false;
+        }
+        i = i + 1;
+    }
+    print(i);
+}

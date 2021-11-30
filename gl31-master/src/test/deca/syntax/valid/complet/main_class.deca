@@ -1,0 +1,26 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+
+    protected int i;
+    float f = 2.45e4f;
+    
+    void methodeTest(int param1, float param2){
+        printx(i*param1*param2);
+    }
+    void toString(){
+        println("Phrase random");
+    }
+    void resFloat(float param){
+        print(f*param);
+    }
+}
+{
+    print("main");
+}

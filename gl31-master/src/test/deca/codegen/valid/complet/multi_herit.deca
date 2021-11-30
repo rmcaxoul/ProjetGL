@@ -1,0 +1,19 @@
+// Description:
+//    Test héritages multiples avec méthode
+//
+// Resultats:
+//    Succes : affiche '6'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    int methInit(){
+        return 6;
+    }
+}
+class B extends A{}
+class C extends B{}
+{
+    C c = new C();
+    print(c.methInit());
+}

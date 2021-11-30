@@ -1,0 +1,12 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 11 : Erreur, 'floa' n'existe pas
+//
+// Historique:
+//    cree le 24/01/2021
+{
+    int a
+    //float f = (floa)(a);
+}

@@ -1,0 +1,15 @@
+// Description:
+//    Simple appel d'attribut de classe
+//
+// Resultats:
+//    Succes : affiche '5'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    int c = 5;
+}
+{
+    A a = new A();
+    print(a.c);
+}

@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 18/01/2021
+class Test{
+    void methodeTest(int param1, float param2){
+        print(param1,param2);
+    }
+}

@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect lexicalement (3 " uniques) pour hello-world
+//
+// Resultats:
+//    Ligne 10 : Erreur, guillemet mal place
+//
+// Historique:
+//    cree le 07/01/2021
+
+"Commentaire"guillemet en trop"

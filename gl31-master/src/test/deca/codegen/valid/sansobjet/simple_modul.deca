@@ -1,0 +1,13 @@
+// Description:
+//    Modulo simple int fonctionnelle
+//
+// Resultats:
+//    Succes : affiche '2'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    int a = 8;
+    int b = a%3;
+    print(b);
+}

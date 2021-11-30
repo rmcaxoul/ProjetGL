@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme correct syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    int a = 3;
+    int b = 3*3;
+    int c = b/2;
+    int d = c%4;
+}

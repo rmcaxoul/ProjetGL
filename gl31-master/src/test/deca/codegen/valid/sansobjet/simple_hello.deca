@@ -1,0 +1,11 @@
+// Description:
+//    Affichage basique
+//
+// Resultats:
+//    Succes : affiche 'hello'
+// 
+// Historique:
+//    cree le 14/01/2021
+{
+    print("hello");
+}

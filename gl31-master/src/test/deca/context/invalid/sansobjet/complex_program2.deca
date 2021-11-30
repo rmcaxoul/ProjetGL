@@ -1,0 +1,22 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 18 : Erreur, comparaison int et true
+//
+// Historique:
+//    cree le 13/01/2021
+{
+    int a = 2;
+    float c = 3;
+    float d = readFloat();
+    boolean b = true
+
+    while(a < 10 && b == true){
+        a = a + 1;
+        d = d - 1;
+        if(a == true){
+            c = false;
+        }
+    }
+}

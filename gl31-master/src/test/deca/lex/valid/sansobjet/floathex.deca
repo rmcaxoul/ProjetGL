@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme correct lexicalement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+
+{
+    float a = 0x017FAB.ABCp-12F;
+    float b = 0X45.F8P5;
+    float c = 0xFCCD.1P+8f;
+}

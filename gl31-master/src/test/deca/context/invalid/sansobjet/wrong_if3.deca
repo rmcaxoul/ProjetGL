@@ -1,0 +1,14 @@
+// Description:
+//    Typage : condition string
+//
+// Resultats:
+//    Ligne 11: un string n'est pas une condition
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    string s = "true";
+    if(s){
+        print("ok");
+    }
+}

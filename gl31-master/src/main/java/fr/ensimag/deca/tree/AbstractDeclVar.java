@@ -1,0 +1,44 @@
+package fr.ensimag.deca.tree;
+
+import fr.ensimag.deca.context.Type;
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.context.ClassDefinition;
+import fr.ensimag.deca.context.ContextualError;
+import fr.ensimag.deca.context.EnvironmentExp;
+
+/**
+ * Variable declaration
+ *
+ * @author gl31
+ * @date 01/01/2021
+ */
+public abstract class AbstractDeclVar extends Tree {
+    
+    /**
+     * Implements non-terminal "decl_var" of [SyntaxeContextuelle] in pass 3
+     * @param compiler contains "env_types" attribute
+     * @param localEnv 
+     *   its "parentEnvironment" corresponds to the "env_exp_sup" attribute
+     *   in precondition, its "current" dictionary corresponds to 
+     *      the "env_exp" attribute
+     *   in postcondition, its "current" dictionary corresponds to 
+     *      the synthetized attribute
+     * @param currentClass 
+     *          corresponds to the "class" attribute (null in the main bloc).
+     */    
+    protected abstract void verifyDeclVar(DecacCompiler compiler,
+            EnvironmentExp localEnv, ClassDefinition currentClass)
+            throws ContextualError;
+
+    /**
+     * Implement the generation of the code for the variable declaration.
+     * @param compiler
+     */
+    protected abstract void codeGenDeclVar(DecacCompiler compiler);
+
+    /**
+     * Implement the generation of the code for the variable declaration in methods.
+     * @param compiler
+     */
+    protected abstract void codeGenDeclVarMeth(DecacCompiler compiler);
+}

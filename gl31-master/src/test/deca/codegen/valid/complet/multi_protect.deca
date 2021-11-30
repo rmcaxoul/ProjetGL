@@ -1,0 +1,44 @@
+// Description:
+//    Appel de méthode de classe avec return + multi line protected
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    protected int b,c;
+    protected boolean d,e;
+
+    void setB(int i){
+        b = i;
+    }
+    void setC(int i){
+        c = i;
+    }
+    void setD(boolean i){
+        d = i;
+    }
+    void setE(boolean i){
+        e = i;
+    }
+    void setAll(int param1, int param2, boolean param3, boolean param4){
+        this.setB(param1);
+        this.setC(param2);
+        this.setD(param3);
+        this.setE(param4);
+    }
+    void fonction(){
+        if(b == 1 && c == 2 && d && !e){
+            print("ok");
+        }
+        else{
+            print("no");
+        }
+    }
+}
+{
+    A a = new A();
+    a.setAll(1,2,true,false);
+    a.fonction();
+}

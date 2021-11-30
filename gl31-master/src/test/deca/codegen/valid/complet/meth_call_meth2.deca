@@ -1,0 +1,22 @@
+// Description:
+//    Appel de méthode appelant une méthode
+//
+// Resultats:
+//    Succes : affiche '16'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    int calcul(int param){
+        return param*4;
+    }
+}
+class B extends A{
+    void callCalc(int param){
+        print(this.calcul(param));
+    }
+}
+{
+    B b = new B();
+    b.callCalc(4);
+}

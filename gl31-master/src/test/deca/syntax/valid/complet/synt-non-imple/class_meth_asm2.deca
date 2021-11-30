@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme correct syntaxiquement pour complet
+//
+// Resultats:
+//    Succès
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    void methodeTest(int param1, float param2) asm ("multi \n line string");
+}

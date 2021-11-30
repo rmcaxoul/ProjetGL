@@ -1,0 +1,17 @@
+// Description:
+//    Test héritage avec attribut
+//
+// Resultats:
+//    Succes : affiche '6'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    int attr;
+}
+class B extends A{}
+{
+    B b = new B();
+    b.attr = 6;
+    print(b.attr);
+}

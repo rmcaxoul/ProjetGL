@@ -1,0 +1,12 @@
+// Description:
+//    Cast float en int
+//
+// Resultats:
+//    Succes : affiche '598'
+// 
+// Historique:
+//    cree le 24/01/2021
+{
+    float f = 5.98123e+2f;
+    print((int)(f));
+}

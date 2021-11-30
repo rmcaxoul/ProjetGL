@@ -1,0 +1,27 @@
+// Description:
+//    Appel de méthode de classe avec return
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 21/01/2021
+class A{
+    boolean vrai(int a){
+        if(a > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+{
+    A a = new A();
+    if(a.vrai(1)){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

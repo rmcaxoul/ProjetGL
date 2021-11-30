@@ -1,0 +1,16 @@
+// Description:
+//    Test while pour test context
+//
+// Resultats:
+//    Succes : while écrit correctement
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    boolean b = true;
+    boolean d = false;
+
+    while(b || d){
+        print("infini");
+    }
+}

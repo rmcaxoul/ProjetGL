@@ -1,0 +1,13 @@
+// Description:
+//    Test float = float + float
+//
+// Resultats:
+//    Succes : affiche '9.90290e+10'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float i = 9.9e10f;
+    float f = i + 2.9e7f;
+    print(f);
+}

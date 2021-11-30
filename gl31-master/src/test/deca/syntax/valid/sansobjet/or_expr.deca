@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme correct syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Succes attendu
+//
+// Historique:
+//    cree le 12/01/2021
+{
+    boolean b;
+
+    while(b || true){
+        print(b);
+    }
+}

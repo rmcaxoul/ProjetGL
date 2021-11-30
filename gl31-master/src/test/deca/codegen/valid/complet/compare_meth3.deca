@@ -1,0 +1,29 @@
+// Description:
+//    Appel de méthodes dans une comparaison entre float
+//
+// Resultats:
+//    Succes : affiche 'ok'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    float plus(float i){
+        return i + 4;
+    }
+    float moins(float i){
+        return i - 4;
+    }
+    float fois(float i){
+        return i*4;
+    }
+}
+{
+    A a = new A();
+    float param = 4;
+    if(a.plus(-param) >= a.moins(param) && a.fois(param) == 16){
+        print("ok");
+    }
+    else{
+        print("no");
+    }
+}

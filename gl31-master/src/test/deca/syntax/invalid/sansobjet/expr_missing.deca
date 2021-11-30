@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour sans-objet
+//
+// Resultats:
+//    Ligne 10 : Erreur, expr. manquante après '='
+//
+// Historique:
+//    cree le 18/01/2021
+{
+    int a = ;
+}

@@ -1,0 +1,19 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(){
+        return 2;
+    }
+}
+{
+    A a;
+    while(a.testMeth() > 3){
+        print("yes");
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour hello-world
+//
+// Resultats:
+//    Ligne 13 : Erreur, '()' "dans le vide"
+//
+// Historique:
+//    cree le 08/01/2021
+{
+    println("Ligne correcte");
+    print("Ligne incorrecte");
+}
+(

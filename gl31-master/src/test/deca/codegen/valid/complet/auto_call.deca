@@ -1,0 +1,17 @@
+// Description:
+//    Appel de méthode s'appelant elle-même
+//
+// Resultats:
+//    Succes : affiche '16'
+// 
+// Historique:
+//    cree le 23/01/2021
+class A{
+    int auto(int param){
+        return param*2;
+    }
+}
+{
+    A a = new A();
+    print(a.auto(a.auto(a.auto(2))));
+}

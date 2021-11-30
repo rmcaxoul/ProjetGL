@@ -1,0 +1,12 @@
+// Description:
+//    Affectation et typage : 2 variable aux noms identiques
+//
+// Resultats:
+//    Ligne 11: La variable 'a' a déjà été définie
+//
+// Historique:
+//    cree le 08/01/2021
+{
+   int a = 9;
+   float a;
+}

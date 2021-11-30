@@ -1,0 +1,19 @@
+// Description:
+//    Test valide pour complet context
+//
+// Resultats:
+//    Succes
+//
+// Historique:
+//    cree le 21/01/2021
+class A{
+    protected int index;
+
+    int getIndex(){
+        return index;
+    }
+}
+{
+    A a = new A();
+    int b = a.getIndex();
+}

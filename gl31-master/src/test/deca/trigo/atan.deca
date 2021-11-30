@@ -1,0 +1,21 @@
+// Description:
+//    Programme calculant l'arc tangente de plusieurs arguments
+//
+// Resultats:
+//    Succès
+// 
+// Historique:
+//    cree le 25/01/2021
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("atan(0.0) = ", m.atan(0.0));
+    println("atan(-0.0) = ", m.atan(-0.0));
+    println("atan(1.0) = ", m.atan(1.0));
+    println("atan(3.1415927) = ", m.atan(3.1415927));
+    println("atan(-1.5707964) = ", m.atan(-1.5707964));
+    println("atan(0.7853982) = ", m.atan(0.7853982));
+    println("atan(-10.0) = ", m.atan(-10.0));
+}

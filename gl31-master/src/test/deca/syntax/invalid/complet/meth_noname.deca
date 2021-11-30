@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme incorrect syntaxiquement pour complet
+//
+// Resultats:
+//    Ligne 10 : Erreur, méthode mal déclarée
+//
+// Historique:
+//    cree le 19/01/2021
+class Test{
+    void (int param){
+        
+    }
+}

@@ -1,0 +1,18 @@
+// Description:
+//    Test invalide pour complet context
+//
+// Resultats:
+//    Ligne 17: Erreur, mauvais paramètres
+//
+// Historique:
+//    cree le 20/01/2021
+class A{
+    int testMeth(int param){
+        return param*2;
+    }
+
+}
+{
+    A a = new A();
+    int b = a.testMeth(2.05e-4f);
+}

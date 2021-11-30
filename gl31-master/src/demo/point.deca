@@ -1,0 +1,32 @@
+#include "Math.decah"
+
+class Point{
+	protected float x;
+	protected float y;
+	
+	void setP(float x2, float y2) {
+		this.x = x2;
+		this.y = y2;
+	}
+
+	float getX(){
+		return this.x;
+	}
+
+	float getY(){
+		return this.y;
+	}
+	
+	void show(){
+		print("Coordonnées du point: (");
+		print(this.x, ", ");
+		println(this.y, ")");
+	}
+}
+{
+	Point p = new Point();
+	p.setP(2.3, 1.2);
+	p.show();
+	p.setP(12.1, 13.2);
+	println("coordonnée x: ", p.getX());	
+}

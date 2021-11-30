@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect lexicalement pour hello-world
+//
+// Resultats:
+//    ligne 10 : Erreur, début du nom de fichier sans "
+//
+// Historique:
+//    cree le 10/01/2021
+
+#include include_file.decah"

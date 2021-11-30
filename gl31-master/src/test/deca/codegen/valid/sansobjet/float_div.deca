@@ -1,0 +1,13 @@
+// Description:
+//    Test float = float / float
+//
+// Resultats:
+//    Succes : affiche '4.77551e+01'
+//
+// Historique:
+//    cree le 17/01/2021
+{
+    float i = 2.34e5f;
+    float f = i / 4.9e3f;
+    print(f);
+}
